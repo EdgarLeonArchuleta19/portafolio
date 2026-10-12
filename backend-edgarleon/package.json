@@ -1,0 +1,42 @@
+{
+  "name": "backend-edgarleon",
+  "version": "0.1.0",
+  "private": true,
+  "description": "API de contenido (Strapi 5) del portafolio de Edgar León",
+  "scripts": {
+    "build": "strapi build",
+    "console": "strapi console",
+    "dev": "strapi develop",
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "strapi": "strapi",
+    "upgrade": "npx @strapi/upgrade latest",
+    "upgrade:dry": "npx @strapi/upgrade latest --dry",
+    "seed": "node scripts/seed-content.js"
+  },
+  "dependencies": {
+    "@strapi/database": "5.53.0",
+    "@strapi/plugin-users-permissions": "5.53.0",
+    "@strapi/provider-upload-aws-s3": "5.53.0",
+    "@strapi/strapi": "5.53.0",
+    "better-sqlite3": "12.8.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.30.3",
+    "styled-components": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "typescript": "^5"
+  },
+  "engines": {
+    "node": ">=20.0.0 <=26.x.x",
+    "npm": ">=6.0.0"
+  },
+  "strapi": {
+    "uuid": "0259d0de-d4f4-4a36-9774-4d283edc9254",
+    "installId": "1cb72b2ed9b27a67d597e9a54d73794b75c73497965671ca6ae2863c6ab88273"
+  }
+}

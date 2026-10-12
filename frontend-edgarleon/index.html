@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta
+      name="description"
+      content="Portfolio of Edgar León, Computer Systems Engineer building full-stack web and mobile products."
+    />
+    <meta name="theme-color" content="#0f110f" />
+    <script>
+      (function () {
+        var theme
+        try {
+          theme = localStorage.getItem('portfolio-theme')
+        } catch (e) {}
+        var prefersLight = window.matchMedia('(prefers-color-scheme: light)').matches
+        if (!theme) theme = prefersLight ? 'light' : 'dark'
+        document.documentElement.classList.toggle('dark', theme === 'dark')
+      })()
+    </script>
+    <style>
+      html {
+        background: #f7f5ef;
+        overflow-x: clip;
+        -webkit-text-size-adjust: 100%;
+        text-size-adjust: 100%;
+      }
+      html.dark {
+        background: #0f110f;
+      }
+      body {
+        margin: 0;
+        overflow-x: clip;
+      }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;0,9..144,900;1,9..144,500;1,9..144,600&family=JetBrains+Mono:wght@400;500;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Edgar León — Software Engineer</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
