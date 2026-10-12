@@ -13,9 +13,10 @@ Frontend del portafolio de Edgar León: una SPA bilingüe (es/en) en React que *
 
 ```bash
 npm install
-npm run dev       # http://localhost:5173 — requiere Strapi en VITE_STRAPI_URL
+npm run dev       # http://localhost:5173 — Strapi en vivo si hay VITE_STRAPI_URL; si no, content.json
 npm run lint      # debe quedar en 0 avisos
 npm run build     # verificación mínima antes de entregar un cambio
+npm run snapshot  # guarda el contenido de Strapi local en src/data/content.json
 ```
 
 Antes de dar un cambio por terminado, corre `npm run lint` y `npm run build`.
@@ -24,8 +25,10 @@ Antes de dar un cambio por terminado, corre `npm run lint` y `npm run build`.
 
 ```
 src/
-├── api/strapi.js        Único lugar que habla con Strapi (fetch + idioma de respaldo)
+├── api/strapi.js        Único lugar que obtiene datos: Strapi en vivo o el snapshot (+ idioma de respaldo)
+├── api/resources.js     Locales, endpoints y parámetros; lo importan strapi.js y scripts/snapshot.js
 ├── config/env.js        Único lugar que lee import.meta.env
+├── data/content.json    Snapshot del contenido (generado, se versiona; no se edita a mano)
 ├── hooks/               useApi (estado de carga), useLocalizedApi (añade el idioma), useReveal
 ├── i18n/                index.jsx (I18nProvider + useI18n) y translations.js
 ├── theme.jsx            ThemeProvider + useTheme
@@ -60,11 +63,20 @@ src/
 
 - Strapi tiene `strictParams: true`: un parámetro de query desconocido responde 400.
 - El enum `skill.level` es `fundamentos | aplicado | avanzado | dominado`. Si cambia, actualiza `LEVEL_PERCENT` en `sections/Skills.jsx` y `skills.levels` en las traducciones.
-- Si un recurso no existe en el idioma pedido (lista vacía o 404), `request()` lo pide en `en`. Los errores de red **no se tragan**: llegan a la UI como `error`.
+- Si un recurso no existe en el idioma pedido (lista vacía o 404), `withFallbackLocale()` lo pide en `en`. Los errores de red **no se tragan**: llegan a la UI como `error`.
+- Un endpoint o parámetro nuevo se agrega en `api/resources.js` (`RESOURCE_PARAMS`), para que el snapshot lo guarde igual que la app lo pide.
+
+## Producción estática (Vercel)
+
+- En línea **no hay Strapi**. Vercel compila `frontend-edgarleon` sin `VITE_STRAPI_URL`, así que `readContent()` lee `src/data/content.json` (importado dinámicamente, va en su propio chunk).
+- Flujo para publicar contenido: Strapi local → editar en el admin → `npm run snapshot` → commit de `content.json` → push. Vercel redespliega solo.
+- `snapshot.js` falla si alguna `url` empieza con `/uploads/`: esas imágenes están en el disco local de Strapi y no existen en línea. Se arregla volviendo a subirlas con el provider de S3 activo.
+- `getProjectBySlug` filtra por `slug` en el cliente porque el snapshot no entiende query params; en vivo además manda el filtro a Strapi.
+- `vercel.json` reescribe todas las rutas a `index.html` (React Router). No lo borres o `/project/<slug>` da 404 al recargar.
 
 ## Trampas conocidas
 
-- `VITE_STRAPI_URL` debe ser `http://localhost:1337`. Una IP de red local deja de funcionar al cambiar de red (`ERR_CONNECTION_TIMED_OUT`).
+- `VITE_STRAPI_URL` (solo desarrollo) debe ser `http://localhost:1337`. Nunca la definas en Vercel. Una IP de red local deja de funcionar al cambiar de red (`ERR_CONNECTION_TIMED_OUT`).
 - No pongas tokens en variables `VITE_*`: se incrustan en el bundle público. El rol *Public* de Strapi ya permite leer.
 - El script inline de `index.html` lee `localStorage['portfolio-theme']` para evitar un parpadeo de tema. Si cambias `THEME_STORAGE_KEY` en `theme.jsx`, cámbiala también ahí.
 - `Object.groupBy` y otras APIs muy recientes no se polyfillean. Usa equivalentes con `reduce` o bucles.

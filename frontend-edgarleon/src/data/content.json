@@ -1,0 +1,2314 @@
+{
+  "en": {
+    "profile": {
+      "id": 15,
+      "documentId": "rpdohigr4eubd46h5opx1qg6",
+      "name": "Edgar León Archuleta",
+      "role": "Computer Systems Engineer",
+      "bio": "Computer Systems Engineer (class of 2025) with experience building and evolving full-stack web and mobile applications. I helped modernize legacy financial systems using Vue.js, Laravel and PostgreSQL, and shipped REST APIs, production Android apps and scalable business solutions.\n\nI work comfortably with Java-based mobile development, modern front-end tooling and agile Scrum. My focus is always the same: efficient, maintainable, well-tested products that move the needle for the business.",
+      "location": "Culiacán, Sinaloa",
+      "email": "leonedgar190@gmail.com",
+      "createdAt": "2026-09-14T18:25:01.766Z",
+      "updatedAt": "2026-10-12T19:02:43.239Z",
+      "publishedAt": "2026-10-12T19:02:43.298Z",
+      "locale": "en",
+      "photo": null,
+      "socialLinks": [
+        {
+          "id": 44,
+          "label": "GitHub",
+          "url": "https://github.com/EdgarLeonArchuleta19"
+        },
+        {
+          "id": 45,
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/edgar-leon-archuleta"
+        }
+      ],
+      "localizations": [
+        {
+          "id": 16,
+          "documentId": "rpdohigr4eubd46h5opx1qg6",
+          "name": "Edgar León Archuleta",
+          "role": "Ingeniero en Sistemas Computacionales",
+          "bio": "Ingeniero en Sistemas Computacionales (egresado 2025) con experiencia desarrollando y evolucionando aplicaciones web y móviles full-stack. Participé en la modernización de sistemas financieros legacy con Vue.js, Laravel y PostgreSQL, y lancé APIs REST, apps Android en producción y soluciones empresariales escalables.\n\nTrabajo con comodidad en desarrollo móvil con Java, tecnologías web modernas y metodologías ágiles Scrum. Mi enfoque es siempre el mismo: productos eficientes, mantenibles y bien probados que muevan la aguja del negocio.",
+          "location": "Culiacán, Sinaloa",
+          "email": "leonedgar190@gmail.com",
+          "createdAt": "2026-09-17T18:24:34.205Z",
+          "updatedAt": "2026-10-12T19:02:43.574Z",
+          "publishedAt": "2026-10-12T19:02:43.610Z",
+          "locale": "es"
+        }
+      ]
+    },
+    "projects": [
+      {
+        "id": 49,
+        "documentId": "g8getx0a4sggatns0ul7xo1j",
+        "title": "iCoffee",
+        "slug": "icoffee-pos",
+        "description": "iCoffee is an all-in-one point-of-sale system built for coffee shops that want one tool for everything: counter sales, an online storefront and delivery orders.\n\nIt ships with a full product and inventory catalog, order tracking, per-user roles and a dashboard that gives owners a live view of revenue and top products. Built to feel fast and stay simple on a busy counter.\n\nStack: Vue.js + Laravel frontend with a PostgreSQL database, consumed through a clean REST API.",
+        "repositoryUrl": "https://github.com/EdgarLeonArchuleta19/iCoffee",
+        "order": 1,
+        "published": true,
+        "createdAt": "2026-09-17T16:36:18.642Z",
+        "updatedAt": "2026-10-12T19:02:43.013Z",
+        "publishedAt": "2026-10-12T19:02:43.051Z",
+        "locale": "en",
+        "liveUrl": "https://edgarleonarchuleta19.github.io/iCoffee/",
+        "year": "2024",
+        "body": null,
+        "coverImage": {
+          "id": 6,
+          "documentId": "xd4p0jsijq9hekcfovfmg6vy",
+          "name": "logo icoffee.png",
+          "alternativeText": null,
+          "caption": null,
+          "focalPoint": null,
+          "width": 868,
+          "height": 480,
+          "formats": {
+            "thumbnail": {
+              "name": "thumbnail_logo icoffee.png",
+              "hash": "thumbnail_logo_icoffee_4069127e8a",
+              "ext": ".png",
+              "mime": "image/png",
+              "path": null,
+              "width": 245,
+              "height": 135,
+              "size": 14.41,
+              "sizeInBytes": 14405,
+              "url": "https://edgarleon-portafolio-media.s3.us-east-2.amazonaws.com/thumbnail_logo_icoffee_4069127e8a.png",
+              "etag": "b99b1e4fa3f91c464444781581776bfc"
+            },
+            "small": {
+              "name": "small_logo icoffee.png",
+              "hash": "small_logo_icoffee_4069127e8a",
+              "ext": ".png",
+              "mime": "image/png",
+              "path": null,
+              "width": 500,
+              "height": 276,
+              "size": 44.73,
+              "sizeInBytes": 44728,
+              "url": "https://edgarleon-portafolio-media.s3.us-east-2.amazonaws.com/small_logo_icoffee_4069127e8a.png",
+              "etag": "ac474c555e4c2618984d1080139fa24e"
+            },
+            "medium": {
+              "name": "medium_logo icoffee.png",
+              "hash": "medium_logo_icoffee_4069127e8a",
+              "ext": ".png",
+              "mime": "image/png",
+              "path": null,
+              "width": 750,
+              "height": 415,
+              "size": 89.48,
+              "sizeInBytes": 89480,
+              "url": "https://edgarleon-portafolio-media.s3.us-east-2.amazonaws.com/medium_logo_icoffee_4069127e8a.png",
+              "etag": "34e38ce25658d820ea301cfb88af7081"
+            }
+          },
+          "hash": "logo_icoffee_4069127e8a",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 26.89,
+          "url": "https://edgarleon-portafolio-media.s3.us-east-2.amazonaws.com/logo_icoffee_4069127e8a.png",
+          "previewUrl": null,
+          "provider": "aws-s3",
+          "provider_metadata": null,
+          "createdAt": "2026-10-12T18:47:02.731Z",
+          "updatedAt": "2026-10-12T18:47:02.731Z",
+          "publishedAt": "2026-10-12T18:47:02.732Z"
+        },
+        "screenshots": [],
+        "skills": [
+          {
+            "id": 140,
+            "documentId": "q7n1ga0tfgiwvagufgss4g29",
+            "name": "React",
+            "level": "avanzado",
+            "createdAt": "2026-09-17T18:24:35.467Z",
+            "updatedAt": "2026-09-17T18:26:23.693Z",
+            "publishedAt": "2026-09-17T18:26:23.697Z",
+            "locale": "en"
+          },
+          {
+            "id": 146,
+            "documentId": "nz4n9hik4tyw2zyyf7k2vepd",
+            "name": "Vue.js",
+            "level": "avanzado",
+            "createdAt": "2026-09-17T18:24:35.737Z",
+            "updatedAt": "2026-09-17T18:26:24.010Z",
+            "publishedAt": "2026-09-17T18:26:24.016Z",
+            "locale": "en"
+          },
+          {
+            "id": 152,
+            "documentId": "cxao4kwe0pv2edp8gyw5ana1",
+            "name": "Tailwind CSS",
+            "level": "aplicado",
+            "createdAt": "2026-09-17T18:24:36.022Z",
+            "updatedAt": "2026-09-17T18:26:24.388Z",
+            "publishedAt": "2026-09-17T18:26:24.392Z",
+            "locale": "en"
+          },
+          {
+            "id": 158,
+            "documentId": "m3h8vvd0636uqlabg2lcddlh",
+            "name": "Laravel",
+            "level": "avanzado",
+            "createdAt": "2026-09-17T18:24:36.317Z",
+            "updatedAt": "2026-09-17T18:26:24.721Z",
+            "publishedAt": "2026-09-17T18:26:24.725Z",
+            "locale": "en"
+          },
+          {
+            "id": 176,
+            "documentId": "ki36jmsoke8kghbm7zxt4zi7",
+            "name": "PostgreSQL",
+            "level": "avanzado",
+            "createdAt": "2026-09-17T18:24:37.115Z",
+            "updatedAt": "2026-09-17T18:26:25.805Z",
+            "publishedAt": "2026-09-17T18:26:25.809Z",
+            "locale": "en"
+          },
+          {
+            "id": 194,
+            "documentId": "gqxa6qvdhfenbvdfkk9n3uy8",
+            "name": "Git",
+            "level": "dominado",
+            "createdAt": "2026-09-17T18:24:37.949Z",
+            "updatedAt": "2026-09-17T18:26:26.840Z",
+            "publishedAt": "2026-09-17T18:26:26.844Z",
+            "locale": "en"
+          }
+        ],
+        "localizations": [
+          {
+            "id": 52,
+            "documentId": "g8getx0a4sggatns0ul7xo1j",
+            "title": "iCoffee",
+            "slug": "icoffee-pos",
+            "description": "iCoffee es un punto de venta todo-en-uno para cafeterías que quieren una sola herramienta para todo: ventas en mostrador, tienda en línea y pedidos de entrega.\n\nIncluye un catálogo completo de productos e inventario, seguimiento de pedidos, roles por usuario y un panel que le da al dueño una vista en vivo de ingresos y productos más vendidos. Está diseñado para sentirse rápido y simple detrás de un mostrador ocupado.\n\nStack: frontend con Vue.js + Laravel sobre PostgreSQL, consumido a través de una API REST limpia.",
+            "repositoryUrl": "https://github.com/EdgarLeonArchuleta19/iCoffee",
+            "order": null,
+            "published": true,
+            "createdAt": "2026-09-17T18:24:39.502Z",
+            "updatedAt": "2026-10-12T19:02:43.332Z",
+            "publishedAt": "2026-10-12T19:02:43.358Z",
+            "locale": "es",
+            "liveUrl": "https://edgarleonarchuleta19.github.io/iCoffee/",
+            "year": "2024",
+            "body": null
+          }
+        ]
+      },
+      {
+        "id": 50,
+        "documentId": "lrq6aeujkxtg7y7zhf4id4h1",
+        "title": "Support Tickets",
+        "slug": "support-tickets",
+        "description": "A support platform for managing IT tickets end to end: creation, triage, and role-based inboxes for both support agents and end users.\n\nEach ticket moves through statuses and priorities with a complete history, so nothing gets lost. Reports give the team visibility into resolution time and workload, while the admin area keeps users and categories under control.\n\nStack: Vue.js + Laravel backend, MySQL for persistence and Node.js for the real-time notification layer.",
+        "repositoryUrl": "https://github.com/EdgarLeonArchuleta19/Telmex",
+        "order": 2,
+        "published": true,
+        "createdAt": "2026-09-17T16:42:06.887Z",
+        "updatedAt": "2026-10-12T19:02:43.092Z",
+        "publishedAt": "2026-10-12T19:02:43.120Z",
+        "locale": "en",
+        "liveUrl": "",
+        "year": "2024",
+        "body": null,
+        "coverImage": {
+          "id": 5,
+          "documentId": "fspnmo9s7tbu7ppi6bwn9vhv",
+          "name": "tickets.png",
+          "alternativeText": null,
+          "caption": null,
+          "focalPoint": null,
+          "width": 693,
+          "height": 410,
+          "formats": {
+            "thumbnail": {
+              "name": "thumbnail_tickets.png",
+              "hash": "thumbnail_tickets_c13fd4a915",
+              "ext": ".png",
+              "mime": "image/png",
+              "path": null,
+              "width": 245,
+              "height": 145,
+              "size": 22.76,
+              "sizeInBytes": 22762,
+              "url": "https://edgarleon-portafolio-media.s3.us-east-2.amazonaws.com/thumbnail_tickets_c13fd4a915.png",
+              "etag": "54603c3f16f8a7a66a0e5c62d7ab4e60"
+            },
+            "small": {
+              "name": "small_tickets.png",
+              "hash": "small_tickets_c13fd4a915",
+              "ext": ".png",
+              "mime": "image/png",
+              "path": null,
+              "width": 500,
+              "height": 296,
+              "size": 71.62,
+              "sizeInBytes": 71619,
+              "url": "https://edgarleon-portafolio-media.s3.us-east-2.amazonaws.com/small_tickets_c13fd4a915.png",
+              "etag": "649ea53f2987c75d402dfbf4c3ec7467"
+            }
+          },
+          "hash": "tickets_c13fd4a915",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 39.19,
+          "url": "https://edgarleon-portafolio-media.s3.us-east-2.amazonaws.com/tickets_c13fd4a915.png",
+          "previewUrl": null,
+          "provider": "aws-s3",
+          "provider_metadata": null,
+          "createdAt": "2026-10-12T18:47:02.717Z",
+          "updatedAt": "2026-10-12T18:47:02.717Z",
+          "publishedAt": "2026-10-12T18:47:02.717Z"
+        },
+        "screenshots": [],
+        "skills": [
+          {
+            "id": 158,
+            "documentId": "m3h8vvd0636uqlabg2lcddlh",
+            "name": "Laravel",
+            "level": "avanzado",
+            "createdAt": "2026-09-17T18:24:36.317Z",
+            "updatedAt": "2026-09-17T18:26:24.721Z",
+            "publishedAt": "2026-09-17T18:26:24.725Z",
+            "locale": "en"
+          },
+          {
+            "id": 146,
+            "documentId": "nz4n9hik4tyw2zyyf7k2vepd",
+            "name": "Vue.js",
+            "level": "avanzado",
+            "createdAt": "2026-09-17T18:24:35.737Z",
+            "updatedAt": "2026-09-17T18:26:24.010Z",
+            "publishedAt": "2026-09-17T18:26:24.016Z",
+            "locale": "en"
+          },
+          {
+            "id": 182,
+            "documentId": "bw6938apg5lu6zwo3wb3bog9",
+            "name": "MySQL",
+            "level": "aplicado",
+            "createdAt": "2026-09-17T18:24:37.385Z",
+            "updatedAt": "2026-09-17T18:26:26.172Z",
+            "publishedAt": "2026-09-17T18:26:26.176Z",
+            "locale": "en"
+          },
+          {
+            "id": 164,
+            "documentId": "lzhfahubugq7ugvgjsjg17hq",
+            "name": "Node.js",
+            "level": "aplicado",
+            "createdAt": "2026-09-17T18:24:36.584Z",
+            "updatedAt": "2026-09-17T18:26:25.088Z",
+            "publishedAt": "2026-09-17T18:26:25.092Z",
+            "locale": "en"
+          },
+          {
+            "id": 200,
+            "documentId": "cjwneibdt3mcdu3ny3yyjzs4",
+            "name": "Scrum",
+            "level": "aplicado",
+            "createdAt": "2026-09-17T18:24:38.234Z",
+            "updatedAt": "2026-09-17T18:26:27.190Z",
+            "publishedAt": "2026-09-17T18:26:27.195Z",
+            "locale": "en"
+          },
+          {
+            "id": 194,
+            "documentId": "gqxa6qvdhfenbvdfkk9n3uy8",
+            "name": "Git",
+            "level": "dominado",
+            "createdAt": "2026-09-17T18:24:37.949Z",
+            "updatedAt": "2026-09-17T18:26:26.840Z",
+            "publishedAt": "2026-09-17T18:26:26.844Z",
+            "locale": "en"
+          }
+        ],
+        "localizations": [
+          {
+            "id": 53,
+            "documentId": "lrq6aeujkxtg7y7zhf4id4h1",
+            "title": "Tickets",
+            "slug": "support-tickets",
+            "description": "Una plataforma de soporte para gestionar tickets de TI de principio a fin: creación, clasificación y bandejas por rol tanto para agentes de soporte como para usuarios finales.\n\nCada ticket avanza por estados y prioridades con un historial completo, para que nada se pierda. Los reportes dan visibilidad del tiempo de resolución y la carga de trabajo, mientras el área administrativa mantiene controlados usuarios y categorías.\n\nStack: Vue.js + Laravel, MySQL como persistencia y Node.js para la capa de notificaciones en tiempo real.",
+            "repositoryUrl": "https://github.com/EdgarLeonArchuleta19/Telmex",
+            "order": null,
+            "published": true,
+            "createdAt": "2026-09-17T18:26:28.867Z",
+            "updatedAt": "2026-10-12T19:02:43.407Z",
+            "publishedAt": "2026-10-12T19:02:43.445Z",
+            "locale": "es",
+            "liveUrl": "",
+            "year": "2024",
+            "body": null
+          }
+        ]
+      },
+      {
+        "id": 51,
+        "documentId": "okwe636zyvq3aofg1kwmwpru",
+        "title": "Floa GPS",
+        "slug": "floa-gps",
+        "description": "A fleet management and tracking platform that helps you see exactly where your vehicles are in real time.\n\nIt combines an interactive map with geofences and alerts for unusual movements, plus fleet administration, driver assignments and advanced reporting for operations teams.\n\nStack: React frontend over a Node.js API, PostgreSQL for geographic data and an Android companion app built in Java.",
+        "repositoryUrl": "https://github.com/EdgarLeonArchuleta19/float-gps",
+        "order": 3,
+        "published": true,
+        "createdAt": "2026-09-17T16:45:43.069Z",
+        "updatedAt": "2026-10-12T19:02:43.170Z",
+        "publishedAt": "2026-10-12T19:02:43.202Z",
+        "locale": "en",
+        "liveUrl": "https://edgarleonarchuleta19.github.io/floa-web/",
+        "year": "2026",
+        "body": null,
+        "coverImage": {
+          "id": 4,
+          "documentId": "c50yc6sohf2gwj06kfuvk84w",
+          "name": "floa.png",
+          "alternativeText": null,
+          "caption": null,
+          "focalPoint": null,
+          "width": 747,
+          "height": 420,
+          "formats": {
+            "thumbnail": {
+              "name": "thumbnail_floa.png",
+              "hash": "thumbnail_floa_e623cc7548",
+              "ext": ".png",
+              "mime": "image/png",
+              "path": null,
+              "width": 245,
+              "height": 138,
+              "size": 13.18,
+              "sizeInBytes": 13182,
+              "url": "https://edgarleon-portafolio-media.s3.us-east-2.amazonaws.com/thumbnail_floa_e623cc7548.png",
+              "etag": "7ecea0226bbe7828078306d063b22bf2"
+            },
+            "small": {
+              "name": "small_floa.png",
+              "hash": "small_floa_e623cc7548",
+              "ext": ".png",
+              "mime": "image/png",
+              "path": null,
+              "width": 500,
+              "height": 281,
+              "size": 35.48,
+              "sizeInBytes": 35482,
+              "url": "https://edgarleon-portafolio-media.s3.us-east-2.amazonaws.com/small_floa_e623cc7548.png",
+              "etag": "09e15a1220611ae48945a774101185da"
+            }
+          },
+          "hash": "floa_e623cc7548",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 13.12,
+          "url": "https://edgarleon-portafolio-media.s3.us-east-2.amazonaws.com/floa_e623cc7548.png",
+          "previewUrl": null,
+          "provider": "aws-s3",
+          "provider_metadata": null,
+          "createdAt": "2026-10-12T18:42:49.126Z",
+          "updatedAt": "2026-10-12T18:42:49.126Z",
+          "publishedAt": "2026-10-12T18:42:49.127Z"
+        },
+        "screenshots": [],
+        "skills": [
+          {
+            "id": 140,
+            "documentId": "q7n1ga0tfgiwvagufgss4g29",
+            "name": "React",
+            "level": "avanzado",
+            "createdAt": "2026-09-17T18:24:35.467Z",
+            "updatedAt": "2026-09-17T18:26:23.693Z",
+            "publishedAt": "2026-09-17T18:26:23.697Z",
+            "locale": "en"
+          },
+          {
+            "id": 164,
+            "documentId": "lzhfahubugq7ugvgjsjg17hq",
+            "name": "Node.js",
+            "level": "aplicado",
+            "createdAt": "2026-09-17T18:24:36.584Z",
+            "updatedAt": "2026-09-17T18:26:25.088Z",
+            "publishedAt": "2026-09-17T18:26:25.092Z",
+            "locale": "en"
+          },
+          {
+            "id": 176,
+            "documentId": "ki36jmsoke8kghbm7zxt4zi7",
+            "name": "PostgreSQL",
+            "level": "avanzado",
+            "createdAt": "2026-09-17T18:24:37.115Z",
+            "updatedAt": "2026-09-17T18:26:25.805Z",
+            "publishedAt": "2026-09-17T18:26:25.809Z",
+            "locale": "en"
+          },
+          {
+            "id": 188,
+            "documentId": "o94nw1c3nfed8kles30oisuv",
+            "name": "Android / Java",
+            "level": "avanzado",
+            "createdAt": "2026-09-17T18:24:37.653Z",
+            "updatedAt": "2026-09-17T18:26:26.506Z",
+            "publishedAt": "2026-09-17T18:26:26.511Z",
+            "locale": "en"
+          },
+          {
+            "id": 194,
+            "documentId": "gqxa6qvdhfenbvdfkk9n3uy8",
+            "name": "Git",
+            "level": "dominado",
+            "createdAt": "2026-09-17T18:24:37.949Z",
+            "updatedAt": "2026-09-17T18:26:26.840Z",
+            "publishedAt": "2026-09-17T18:26:26.844Z",
+            "locale": "en"
+          }
+        ],
+        "localizations": [
+          {
+            "id": 54,
+            "documentId": "okwe636zyvq3aofg1kwmwpru",
+            "title": "Floa GPS",
+            "slug": "floa-gps",
+            "description": "Una plataforma de administración y seguimiento de flotas que te permite ver exactamente dónde están tus vehículos en tiempo real.\n\nCombina un mapa interactivo con geocercas y alertas de movimientos poco habituales, además de administración de flota, asignación de conductores y reportes avanzados para equipos de operaciones.\n\nStack: frontend React sobre una API de Node.js, PostgreSQL para datos geográficos y una app Android complementaria en Java.",
+            "repositoryUrl": "https://github.com/EdgarLeonArchuleta19/float-gps",
+            "order": null,
+            "published": true,
+            "createdAt": "2026-09-17T18:26:29.590Z",
+            "updatedAt": "2026-10-12T19:02:43.490Z",
+            "publishedAt": "2026-10-12T19:02:43.526Z",
+            "locale": "es",
+            "liveUrl": "https://edgarleonarchuleta19.github.io/floa-web/",
+            "year": "2026",
+            "body": null
+          }
+        ]
+      }
+    ],
+    "skills": [
+      {
+        "id": 140,
+        "documentId": "q7n1ga0tfgiwvagufgss4g29",
+        "name": "React",
+        "level": "avanzado",
+        "createdAt": "2026-09-17T18:24:35.467Z",
+        "updatedAt": "2026-09-17T18:26:23.693Z",
+        "publishedAt": "2026-09-17T18:26:23.697Z",
+        "locale": "en",
+        "category": {
+          "id": 46,
+          "documentId": "kv9nb9n26tgte2o7ubv79r69",
+          "name": "Frontend",
+          "order": 1,
+          "createdAt": "2026-09-14T18:35:47.387Z",
+          "updatedAt": "2026-09-17T18:26:22.630Z",
+          "publishedAt": "2026-09-17T18:26:22.637Z",
+          "locale": "en"
+        },
+        "projects": [
+          {
+            "id": 49,
+            "documentId": "g8getx0a4sggatns0ul7xo1j",
+            "title": "iCoffee",
+            "slug": "icoffee-pos",
+            "description": "iCoffee is an all-in-one point-of-sale system built for coffee shops that want one tool for everything: counter sales, an online storefront and delivery orders.\n\nIt ships with a full product and inventory catalog, order tracking, per-user roles and a dashboard that gives owners a live view of revenue and top products. Built to feel fast and stay simple on a busy counter.\n\nStack: Vue.js + Laravel frontend with a PostgreSQL database, consumed through a clean REST API.",
+            "repositoryUrl": "https://github.com/EdgarLeonArchuleta19/iCoffee",
+            "order": 1,
+            "published": true,
+            "createdAt": "2026-09-17T16:36:18.642Z",
+            "updatedAt": "2026-10-12T19:02:43.013Z",
+            "publishedAt": "2026-10-12T19:02:43.051Z",
+            "locale": "en",
+            "liveUrl": "https://edgarleonarchuleta19.github.io/iCoffee/",
+            "year": "2024",
+            "body": null
+          },
+          {
+            "id": 51,
+            "documentId": "okwe636zyvq3aofg1kwmwpru",
+            "title": "Floa GPS",
+            "slug": "floa-gps",
+            "description": "A fleet management and tracking platform that helps you see exactly where your vehicles are in real time.\n\nIt combines an interactive map with geofences and alerts for unusual movements, plus fleet administration, driver assignments and advanced reporting for operations teams.\n\nStack: React frontend over a Node.js API, PostgreSQL for geographic data and an Android companion app built in Java.",
+            "repositoryUrl": "https://github.com/EdgarLeonArchuleta19/float-gps",
+            "order": 3,
+            "published": true,
+            "createdAt": "2026-09-17T16:45:43.069Z",
+            "updatedAt": "2026-10-12T19:02:43.170Z",
+            "publishedAt": "2026-10-12T19:02:43.202Z",
+            "locale": "en",
+            "liveUrl": "https://edgarleonarchuleta19.github.io/floa-web/",
+            "year": "2026",
+            "body": null
+          }
+        ],
+        "localizations": [
+          {
+            "id": 141,
+            "documentId": "q7n1ga0tfgiwvagufgss4g29",
+            "name": "React",
+            "level": "avanzado",
+            "createdAt": "2026-09-17T18:24:35.437Z",
+            "updatedAt": "2026-09-17T18:26:23.724Z",
+            "publishedAt": "2026-09-17T18:26:23.729Z",
+            "locale": "es"
+          }
+        ]
+      },
+      {
+        "id": 146,
+        "documentId": "nz4n9hik4tyw2zyyf7k2vepd",
+        "name": "Vue.js",
+        "level": "avanzado",
+        "createdAt": "2026-09-17T18:24:35.737Z",
+        "updatedAt": "2026-09-17T18:26:24.010Z",
+        "publishedAt": "2026-09-17T18:26:24.016Z",
+        "locale": "en",
+        "category": {
+          "id": 46,
+          "documentId": "kv9nb9n26tgte2o7ubv79r69",
+          "name": "Frontend",
+          "order": 1,
+          "createdAt": "2026-09-14T18:35:47.387Z",
+          "updatedAt": "2026-09-17T18:26:22.630Z",
+          "publishedAt": "2026-09-17T18:26:22.637Z",
+          "locale": "en"
+        },
+        "projects": [
+          {
+            "id": 49,
+            "documentId": "g8getx0a4sggatns0ul7xo1j",
+            "title": "iCoffee",
+            "slug": "icoffee-pos",
+            "description": "iCoffee is an all-in-one point-of-sale system built for coffee shops that want one tool for everything: counter sales, an online storefront and delivery orders.\n\nIt ships with a full product and inventory catalog, order tracking, per-user roles and a dashboard that gives owners a live view of revenue and top products. Built to feel fast and stay simple on a busy counter.\n\nStack: Vue.js + Laravel frontend with a PostgreSQL database, consumed through a clean REST API.",
+            "repositoryUrl": "https://github.com/EdgarLeonArchuleta19/iCoffee",
+            "order": 1,
+            "published": true,
+            "createdAt": "2026-09-17T16:36:18.642Z",
+            "updatedAt": "2026-10-12T19:02:43.013Z",
+            "publishedAt": "2026-10-12T19:02:43.051Z",
+            "locale": "en",
+            "liveUrl": "https://edgarleonarchuleta19.github.io/iCoffee/",
+            "year": "2024",
+            "body": null
+          },
+          {
+            "id": 50,
+            "documentId": "lrq6aeujkxtg7y7zhf4id4h1",
+            "title": "Support Tickets",
+            "slug": "support-tickets",
+            "description": "A support platform for managing IT tickets end to end: creation, triage, and role-based inboxes for both support agents and end users.\n\nEach ticket moves through statuses and priorities with a complete history, so nothing gets lost. Reports give the team visibility into resolution time and workload, while the admin area keeps users and categories under control.\n\nStack: Vue.js + Laravel backend, MySQL for persistence and Node.js for the real-time notification layer.",
+            "repositoryUrl": "https://github.com/EdgarLeonArchuleta19/Telmex",
+            "order": 2,
+            "published": true,
+            "createdAt": "2026-09-17T16:42:06.887Z",
+            "updatedAt": "2026-10-12T19:02:43.092Z",
+            "publishedAt": "2026-10-12T19:02:43.120Z",
+            "locale": "en",
+            "liveUrl": "",
+            "year": "2024",
+            "body": null
+          }
+        ],
+        "localizations": [
+          {
+            "id": 147,
+            "documentId": "nz4n9hik4tyw2zyyf7k2vepd",
+            "name": "Vue.js",
+            "level": "avanzado",
+            "createdAt": "2026-09-17T18:24:35.715Z",
+            "updatedAt": "2026-09-17T18:26:24.068Z",
+            "publishedAt": "2026-09-17T18:26:24.086Z",
+            "locale": "es"
+          }
+        ]
+      },
+      {
+        "id": 152,
+        "documentId": "cxao4kwe0pv2edp8gyw5ana1",
+        "name": "Tailwind CSS",
+        "level": "aplicado",
+        "createdAt": "2026-09-17T18:24:36.022Z",
+        "updatedAt": "2026-09-17T18:26:24.388Z",
+        "publishedAt": "2026-09-17T18:26:24.392Z",
+        "locale": "en",
+        "category": {
+          "id": 46,
+          "documentId": "kv9nb9n26tgte2o7ubv79r69",
+          "name": "Frontend",
+          "order": 1,
+          "createdAt": "2026-09-14T18:35:47.387Z",
+          "updatedAt": "2026-09-17T18:26:22.630Z",
+          "publishedAt": "2026-09-17T18:26:22.637Z",
+          "locale": "en"
+        },
+        "projects": [
+          {
+            "id": 49,
+            "documentId": "g8getx0a4sggatns0ul7xo1j",
+            "title": "iCoffee",
+            "slug": "icoffee-pos",
+            "description": "iCoffee is an all-in-one point-of-sale system built for coffee shops that want one tool for everything: counter sales, an online storefront and delivery orders.\n\nIt ships with a full product and inventory catalog, order tracking, per-user roles and a dashboard that gives owners a live view of revenue and top products. Built to feel fast and stay simple on a busy counter.\n\nStack: Vue.js + Laravel frontend with a PostgreSQL database, consumed through a clean REST API.",
+            "repositoryUrl": "https://github.com/EdgarLeonArchuleta19/iCoffee",
+            "order": 1,
+            "published": true,
+            "createdAt": "2026-09-17T16:36:18.642Z",
+            "updatedAt": "2026-10-12T19:02:43.013Z",
+            "publishedAt": "2026-10-12T19:02:43.051Z",
+            "locale": "en",
+            "liveUrl": "https://edgarleonarchuleta19.github.io/iCoffee/",
+            "year": "2024",
+            "body": null
+          }
+        ],
+        "localizations": [
+          {
+            "id": 153,
+            "documentId": "cxao4kwe0pv2edp8gyw5ana1",
+            "name": "Tailwind CSS",
+            "level": "aplicado",
+            "createdAt": "2026-09-17T18:24:36.004Z",
+            "updatedAt": "2026-09-17T18:26:24.422Z",
+            "publishedAt": "2026-09-17T18:26:24.426Z",
+            "locale": "es"
+          }
+        ]
+      },
+      {
+        "id": 158,
+        "documentId": "m3h8vvd0636uqlabg2lcddlh",
+        "name": "Laravel",
+        "level": "avanzado",
+        "createdAt": "2026-09-17T18:24:36.317Z",
+        "updatedAt": "2026-09-17T18:26:24.721Z",
+        "publishedAt": "2026-09-17T18:26:24.725Z",
+        "locale": "en",
+        "category": {
+          "id": 50,
+          "documentId": "gkc21olq8q81upnq57ipgvk0",
+          "name": "Backend",
+          "order": 2,
+          "createdAt": "2026-09-14T18:35:54.041Z",
+          "updatedAt": "2026-09-17T18:26:22.762Z",
+          "publishedAt": "2026-09-17T18:26:22.768Z",
+          "locale": "en"
+        },
+        "projects": [
+          {
+            "id": 49,
+            "documentId": "g8getx0a4sggatns0ul7xo1j",
+            "title": "iCoffee",
+            "slug": "icoffee-pos",
+            "description": "iCoffee is an all-in-one point-of-sale system built for coffee shops that want one tool for everything: counter sales, an online storefront and delivery orders.\n\nIt ships with a full product and inventory catalog, order tracking, per-user roles and a dashboard that gives owners a live view of revenue and top products. Built to feel fast and stay simple on a busy counter.\n\nStack: Vue.js + Laravel frontend with a PostgreSQL database, consumed through a clean REST API.",
+            "repositoryUrl": "https://github.com/EdgarLeonArchuleta19/iCoffee",
+            "order": 1,
+            "published": true,
+            "createdAt": "2026-09-17T16:36:18.642Z",
+            "updatedAt": "2026-10-12T19:02:43.013Z",
+            "publishedAt": "2026-10-12T19:02:43.051Z",
+            "locale": "en",
+            "liveUrl": "https://edgarleonarchuleta19.github.io/iCoffee/",
+            "year": "2024",
+            "body": null
+          },
+          {
+            "id": 50,
+            "documentId": "lrq6aeujkxtg7y7zhf4id4h1",
+            "title": "Support Tickets",
+            "slug": "support-tickets",
+            "description": "A support platform for managing IT tickets end to end: creation, triage, and role-based inboxes for both support agents and end users.\n\nEach ticket moves through statuses and priorities with a complete history, so nothing gets lost. Reports give the team visibility into resolution time and workload, while the admin area keeps users and categories under control.\n\nStack: Vue.js + Laravel backend, MySQL for persistence and Node.js for the real-time notification layer.",
+            "repositoryUrl": "https://github.com/EdgarLeonArchuleta19/Telmex",
+            "order": 2,
+            "published": true,
+            "createdAt": "2026-09-17T16:42:06.887Z",
+            "updatedAt": "2026-10-12T19:02:43.092Z",
+            "publishedAt": "2026-10-12T19:02:43.120Z",
+            "locale": "en",
+            "liveUrl": "",
+            "year": "2024",
+            "body": null
+          }
+        ],
+        "localizations": [
+          {
+            "id": 159,
+            "documentId": "m3h8vvd0636uqlabg2lcddlh",
+            "name": "Laravel",
+            "level": "avanzado",
+            "createdAt": "2026-09-17T18:24:36.286Z",
+            "updatedAt": "2026-09-17T18:26:24.754Z",
+            "publishedAt": "2026-09-17T18:26:24.758Z",
+            "locale": "es"
+          }
+        ]
+      },
+      {
+        "id": 164,
+        "documentId": "lzhfahubugq7ugvgjsjg17hq",
+        "name": "Node.js",
+        "level": "aplicado",
+        "createdAt": "2026-09-17T18:24:36.584Z",
+        "updatedAt": "2026-09-17T18:26:25.088Z",
+        "publishedAt": "2026-09-17T18:26:25.092Z",
+        "locale": "en",
+        "category": {
+          "id": 50,
+          "documentId": "gkc21olq8q81upnq57ipgvk0",
+          "name": "Backend",
+          "order": 2,
+          "createdAt": "2026-09-14T18:35:54.041Z",
+          "updatedAt": "2026-09-17T18:26:22.762Z",
+          "publishedAt": "2026-09-17T18:26:22.768Z",
+          "locale": "en"
+        },
+        "projects": [
+          {
+            "id": 50,
+            "documentId": "lrq6aeujkxtg7y7zhf4id4h1",
+            "title": "Support Tickets",
+            "slug": "support-tickets",
+            "description": "A support platform for managing IT tickets end to end: creation, triage, and role-based inboxes for both support agents and end users.\n\nEach ticket moves through statuses and priorities with a complete history, so nothing gets lost. Reports give the team visibility into resolution time and workload, while the admin area keeps users and categories under control.\n\nStack: Vue.js + Laravel backend, MySQL for persistence and Node.js for the real-time notification layer.",
+            "repositoryUrl": "https://github.com/EdgarLeonArchuleta19/Telmex",
+            "order": 2,
+            "published": true,
+            "createdAt": "2026-09-17T16:42:06.887Z",
+            "updatedAt": "2026-10-12T19:02:43.092Z",
+            "publishedAt": "2026-10-12T19:02:43.120Z",
+            "locale": "en",
+            "liveUrl": "",
+            "year": "2024",
+            "body": null
+          },
+          {
+            "id": 51,
+            "documentId": "okwe636zyvq3aofg1kwmwpru",
+            "title": "Floa GPS",
+            "slug": "floa-gps",
+            "description": "A fleet management and tracking platform that helps you see exactly where your vehicles are in real time.\n\nIt combines an interactive map with geofences and alerts for unusual movements, plus fleet administration, driver assignments and advanced reporting for operations teams.\n\nStack: React frontend over a Node.js API, PostgreSQL for geographic data and an Android companion app built in Java.",
+            "repositoryUrl": "https://github.com/EdgarLeonArchuleta19/float-gps",
+            "order": 3,
+            "published": true,
+            "createdAt": "2026-09-17T16:45:43.069Z",
+            "updatedAt": "2026-10-12T19:02:43.170Z",
+            "publishedAt": "2026-10-12T19:02:43.202Z",
+            "locale": "en",
+            "liveUrl": "https://edgarleonarchuleta19.github.io/floa-web/",
+            "year": "2026",
+            "body": null
+          }
+        ],
+        "localizations": [
+          {
+            "id": 165,
+            "documentId": "lzhfahubugq7ugvgjsjg17hq",
+            "name": "Node.js",
+            "level": "aplicado",
+            "createdAt": "2026-09-17T18:24:36.553Z",
+            "updatedAt": "2026-09-17T18:26:25.124Z",
+            "publishedAt": "2026-09-17T18:26:25.130Z",
+            "locale": "es"
+          }
+        ]
+      },
+      {
+        "id": 170,
+        "documentId": "f7e9w9llmu1dyc9qc9dmgqov",
+        "name": "Strapi",
+        "level": "aplicado",
+        "createdAt": "2026-09-17T18:24:36.851Z",
+        "updatedAt": "2026-09-17T18:26:25.439Z",
+        "publishedAt": "2026-09-17T18:26:25.443Z",
+        "locale": "en",
+        "category": {
+          "id": 50,
+          "documentId": "gkc21olq8q81upnq57ipgvk0",
+          "name": "Backend",
+          "order": 2,
+          "createdAt": "2026-09-14T18:35:54.041Z",
+          "updatedAt": "2026-09-17T18:26:22.762Z",
+          "publishedAt": "2026-09-17T18:26:22.768Z",
+          "locale": "en"
+        },
+        "projects": [],
+        "localizations": [
+          {
+            "id": 171,
+            "documentId": "f7e9w9llmu1dyc9qc9dmgqov",
+            "name": "Strapi",
+            "level": "aplicado",
+            "createdAt": "2026-09-17T18:24:36.818Z",
+            "updatedAt": "2026-09-17T18:26:25.472Z",
+            "publishedAt": "2026-09-17T18:26:25.477Z",
+            "locale": "es"
+          }
+        ]
+      },
+      {
+        "id": 176,
+        "documentId": "ki36jmsoke8kghbm7zxt4zi7",
+        "name": "PostgreSQL",
+        "level": "avanzado",
+        "createdAt": "2026-09-17T18:24:37.115Z",
+        "updatedAt": "2026-09-17T18:26:25.805Z",
+        "publishedAt": "2026-09-17T18:26:25.809Z",
+        "locale": "en",
+        "category": {
+          "id": 54,
+          "documentId": "o78c82i0jzw1zujg2icen3ip",
+          "name": "Databases",
+          "order": 0,
+          "createdAt": "2026-09-17T18:24:34.815Z",
+          "updatedAt": "2026-09-17T18:26:22.916Z",
+          "publishedAt": "2026-09-17T18:26:22.920Z",
+          "locale": "en"
+        },
+        "projects": [
+          {
+            "id": 49,
+            "documentId": "g8getx0a4sggatns0ul7xo1j",
+            "title": "iCoffee",
+            "slug": "icoffee-pos",
+            "description": "iCoffee is an all-in-one point-of-sale system built for coffee shops that want one tool for everything: counter sales, an online storefront and delivery orders.\n\nIt ships with a full product and inventory catalog, order tracking, per-user roles and a dashboard that gives owners a live view of revenue and top products. Built to feel fast and stay simple on a busy counter.\n\nStack: Vue.js + Laravel frontend with a PostgreSQL database, consumed through a clean REST API.",
+            "repositoryUrl": "https://github.com/EdgarLeonArchuleta19/iCoffee",
+            "order": 1,
+            "published": true,
+            "createdAt": "2026-09-17T16:36:18.642Z",
+            "updatedAt": "2026-10-12T19:02:43.013Z",
+            "publishedAt": "2026-10-12T19:02:43.051Z",
+            "locale": "en",
+            "liveUrl": "https://edgarleonarchuleta19.github.io/iCoffee/",
+            "year": "2024",
+            "body": null
+          },
+          {
+            "id": 51,
+            "documentId": "okwe636zyvq3aofg1kwmwpru",
+            "title": "Floa GPS",
+            "slug": "floa-gps",
+            "description": "A fleet management and tracking platform that helps you see exactly where your vehicles are in real time.\n\nIt combines an interactive map with geofences and alerts for unusual movements, plus fleet administration, driver assignments and advanced reporting for operations teams.\n\nStack: React frontend over a Node.js API, PostgreSQL for geographic data and an Android companion app built in Java.",
+            "repositoryUrl": "https://github.com/EdgarLeonArchuleta19/float-gps",
+            "order": 3,
+            "published": true,
+            "createdAt": "2026-09-17T16:45:43.069Z",
+            "updatedAt": "2026-10-12T19:02:43.170Z",
+            "publishedAt": "2026-10-12T19:02:43.202Z",
+            "locale": "en",
+            "liveUrl": "https://edgarleonarchuleta19.github.io/floa-web/",
+            "year": "2026",
+            "body": null
+          }
+        ],
+        "localizations": [
+          {
+            "id": 177,
+            "documentId": "ki36jmsoke8kghbm7zxt4zi7",
+            "name": "PostgreSQL",
+            "level": "avanzado",
+            "createdAt": "2026-09-17T18:24:37.084Z",
+            "updatedAt": "2026-09-17T18:26:25.839Z",
+            "publishedAt": "2026-09-17T18:26:25.842Z",
+            "locale": "es"
+          }
+        ]
+      },
+      {
+        "id": 182,
+        "documentId": "bw6938apg5lu6zwo3wb3bog9",
+        "name": "MySQL",
+        "level": "aplicado",
+        "createdAt": "2026-09-17T18:24:37.385Z",
+        "updatedAt": "2026-09-17T18:26:26.172Z",
+        "publishedAt": "2026-09-17T18:26:26.176Z",
+        "locale": "en",
+        "category": {
+          "id": 54,
+          "documentId": "o78c82i0jzw1zujg2icen3ip",
+          "name": "Databases",
+          "order": 0,
+          "createdAt": "2026-09-17T18:24:34.815Z",
+          "updatedAt": "2026-09-17T18:26:22.916Z",
+          "publishedAt": "2026-09-17T18:26:22.920Z",
+          "locale": "en"
+        },
+        "projects": [
+          {
+            "id": 50,
+            "documentId": "lrq6aeujkxtg7y7zhf4id4h1",
+            "title": "Support Tickets",
+            "slug": "support-tickets",
+            "description": "A support platform for managing IT tickets end to end: creation, triage, and role-based inboxes for both support agents and end users.\n\nEach ticket moves through statuses and priorities with a complete history, so nothing gets lost. Reports give the team visibility into resolution time and workload, while the admin area keeps users and categories under control.\n\nStack: Vue.js + Laravel backend, MySQL for persistence and Node.js for the real-time notification layer.",
+            "repositoryUrl": "https://github.com/EdgarLeonArchuleta19/Telmex",
+            "order": 2,
+            "published": true,
+            "createdAt": "2026-09-17T16:42:06.887Z",
+            "updatedAt": "2026-10-12T19:02:43.092Z",
+            "publishedAt": "2026-10-12T19:02:43.120Z",
+            "locale": "en",
+            "liveUrl": "",
+            "year": "2024",
+            "body": null
+          }
+        ],
+        "localizations": [
+          {
+            "id": 183,
+            "documentId": "bw6938apg5lu6zwo3wb3bog9",
+            "name": "MySQL",
+            "level": "aplicado",
+            "createdAt": "2026-09-17T18:24:37.367Z",
+            "updatedAt": "2026-09-17T18:26:26.204Z",
+            "publishedAt": "2026-09-17T18:26:26.208Z",
+            "locale": "es"
+          }
+        ]
+      },
+      {
+        "id": 188,
+        "documentId": "o94nw1c3nfed8kles30oisuv",
+        "name": "Android / Java",
+        "level": "avanzado",
+        "createdAt": "2026-09-17T18:24:37.653Z",
+        "updatedAt": "2026-09-17T18:26:26.506Z",
+        "publishedAt": "2026-09-17T18:26:26.511Z",
+        "locale": "en",
+        "category": {
+          "id": 62,
+          "documentId": "f6zuh147xcr2ta2bmcflyx5q",
+          "name": "Mobile",
+          "order": 0,
+          "createdAt": "2026-09-17T18:24:35.016Z",
+          "updatedAt": "2026-09-17T18:26:23.195Z",
+          "publishedAt": "2026-09-17T18:26:23.202Z",
+          "locale": "en"
+        },
+        "projects": [
+          {
+            "id": 51,
+            "documentId": "okwe636zyvq3aofg1kwmwpru",
+            "title": "Floa GPS",
+            "slug": "floa-gps",
+            "description": "A fleet management and tracking platform that helps you see exactly where your vehicles are in real time.\n\nIt combines an interactive map with geofences and alerts for unusual movements, plus fleet administration, driver assignments and advanced reporting for operations teams.\n\nStack: React frontend over a Node.js API, PostgreSQL for geographic data and an Android companion app built in Java.",
+            "repositoryUrl": "https://github.com/EdgarLeonArchuleta19/float-gps",
+            "order": 3,
+            "published": true,
+            "createdAt": "2026-09-17T16:45:43.069Z",
+            "updatedAt": "2026-10-12T19:02:43.170Z",
+            "publishedAt": "2026-10-12T19:02:43.202Z",
+            "locale": "en",
+            "liveUrl": "https://edgarleonarchuleta19.github.io/floa-web/",
+            "year": "2026",
+            "body": null
+          }
+        ],
+        "localizations": [
+          {
+            "id": 189,
+            "documentId": "o94nw1c3nfed8kles30oisuv",
+            "name": "Android / Java",
+            "level": "avanzado",
+            "createdAt": "2026-09-17T18:24:37.632Z",
+            "updatedAt": "2026-09-17T18:26:26.545Z",
+            "publishedAt": "2026-09-17T18:26:26.552Z",
+            "locale": "es"
+          }
+        ]
+      },
+      {
+        "id": 194,
+        "documentId": "gqxa6qvdhfenbvdfkk9n3uy8",
+        "name": "Git",
+        "level": "dominado",
+        "createdAt": "2026-09-17T18:24:37.949Z",
+        "updatedAt": "2026-09-17T18:26:26.840Z",
+        "publishedAt": "2026-09-17T18:26:26.844Z",
+        "locale": "en",
+        "category": {
+          "id": 58,
+          "documentId": "pvz6z41x7m4eom9jb03i16de",
+          "name": "Tools",
+          "order": 0,
+          "createdAt": "2026-09-17T18:24:34.915Z",
+          "updatedAt": "2026-09-17T18:26:23.076Z",
+          "publishedAt": "2026-09-17T18:26:23.080Z",
+          "locale": "en"
+        },
+        "projects": [
+          {
+            "id": 49,
+            "documentId": "g8getx0a4sggatns0ul7xo1j",
+            "title": "iCoffee",
+            "slug": "icoffee-pos",
+            "description": "iCoffee is an all-in-one point-of-sale system built for coffee shops that want one tool for everything: counter sales, an online storefront and delivery orders.\n\nIt ships with a full product and inventory catalog, order tracking, per-user roles and a dashboard that gives owners a live view of revenue and top products. Built to feel fast and stay simple on a busy counter.\n\nStack: Vue.js + Laravel frontend with a PostgreSQL database, consumed through a clean REST API.",
+            "repositoryUrl": "https://github.com/EdgarLeonArchuleta19/iCoffee",
+            "order": 1,
+            "published": true,
+            "createdAt": "2026-09-17T16:36:18.642Z",
+            "updatedAt": "2026-10-12T19:02:43.013Z",
+            "publishedAt": "2026-10-12T19:02:43.051Z",
+            "locale": "en",
+            "liveUrl": "https://edgarleonarchuleta19.github.io/iCoffee/",
+            "year": "2024",
+            "body": null
+          },
+          {
+            "id": 50,
+            "documentId": "lrq6aeujkxtg7y7zhf4id4h1",
+            "title": "Support Tickets",
+            "slug": "support-tickets",
+            "description": "A support platform for managing IT tickets end to end: creation, triage, and role-based inboxes for both support agents and end users.\n\nEach ticket moves through statuses and priorities with a complete history, so nothing gets lost. Reports give the team visibility into resolution time and workload, while the admin area keeps users and categories under control.\n\nStack: Vue.js + Laravel backend, MySQL for persistence and Node.js for the real-time notification layer.",
+            "repositoryUrl": "https://github.com/EdgarLeonArchuleta19/Telmex",
+            "order": 2,
+            "published": true,
+            "createdAt": "2026-09-17T16:42:06.887Z",
+            "updatedAt": "2026-10-12T19:02:43.092Z",
+            "publishedAt": "2026-10-12T19:02:43.120Z",
+            "locale": "en",
+            "liveUrl": "",
+            "year": "2024",
+            "body": null
+          },
+          {
+            "id": 51,
+            "documentId": "okwe636zyvq3aofg1kwmwpru",
+            "title": "Floa GPS",
+            "slug": "floa-gps",
+            "description": "A fleet management and tracking platform that helps you see exactly where your vehicles are in real time.\n\nIt combines an interactive map with geofences and alerts for unusual movements, plus fleet administration, driver assignments and advanced reporting for operations teams.\n\nStack: React frontend over a Node.js API, PostgreSQL for geographic data and an Android companion app built in Java.",
+            "repositoryUrl": "https://github.com/EdgarLeonArchuleta19/float-gps",
+            "order": 3,
+            "published": true,
+            "createdAt": "2026-09-17T16:45:43.069Z",
+            "updatedAt": "2026-10-12T19:02:43.170Z",
+            "publishedAt": "2026-10-12T19:02:43.202Z",
+            "locale": "en",
+            "liveUrl": "https://edgarleonarchuleta19.github.io/floa-web/",
+            "year": "2026",
+            "body": null
+          }
+        ],
+        "localizations": [
+          {
+            "id": 195,
+            "documentId": "gqxa6qvdhfenbvdfkk9n3uy8",
+            "name": "Git",
+            "level": "dominado",
+            "createdAt": "2026-09-17T18:24:37.917Z",
+            "updatedAt": "2026-09-17T18:26:26.876Z",
+            "publishedAt": "2026-09-17T18:26:26.880Z",
+            "locale": "es"
+          }
+        ]
+      },
+      {
+        "id": 200,
+        "documentId": "cjwneibdt3mcdu3ny3yyjzs4",
+        "name": "Scrum",
+        "level": "aplicado",
+        "createdAt": "2026-09-17T18:24:38.234Z",
+        "updatedAt": "2026-09-17T18:26:27.190Z",
+        "publishedAt": "2026-09-17T18:26:27.195Z",
+        "locale": "en",
+        "category": {
+          "id": 58,
+          "documentId": "pvz6z41x7m4eom9jb03i16de",
+          "name": "Tools",
+          "order": 0,
+          "createdAt": "2026-09-17T18:24:34.915Z",
+          "updatedAt": "2026-09-17T18:26:23.076Z",
+          "publishedAt": "2026-09-17T18:26:23.080Z",
+          "locale": "en"
+        },
+        "projects": [
+          {
+            "id": 50,
+            "documentId": "lrq6aeujkxtg7y7zhf4id4h1",
+            "title": "Support Tickets",
+            "slug": "support-tickets",
+            "description": "A support platform for managing IT tickets end to end: creation, triage, and role-based inboxes for both support agents and end users.\n\nEach ticket moves through statuses and priorities with a complete history, so nothing gets lost. Reports give the team visibility into resolution time and workload, while the admin area keeps users and categories under control.\n\nStack: Vue.js + Laravel backend, MySQL for persistence and Node.js for the real-time notification layer.",
+            "repositoryUrl": "https://github.com/EdgarLeonArchuleta19/Telmex",
+            "order": 2,
+            "published": true,
+            "createdAt": "2026-09-17T16:42:06.887Z",
+            "updatedAt": "2026-10-12T19:02:43.092Z",
+            "publishedAt": "2026-10-12T19:02:43.120Z",
+            "locale": "en",
+            "liveUrl": "",
+            "year": "2024",
+            "body": null
+          }
+        ],
+        "localizations": [
+          {
+            "id": 201,
+            "documentId": "cjwneibdt3mcdu3ny3yyjzs4",
+            "name": "Scrum",
+            "level": "aplicado",
+            "createdAt": "2026-09-17T18:24:38.200Z",
+            "updatedAt": "2026-09-17T18:26:27.220Z",
+            "publishedAt": "2026-09-17T18:26:27.224Z",
+            "locale": "es"
+          }
+        ]
+      }
+    ]
+  },
+  "es": {
+    "profile": {
+      "id": 16,
+      "documentId": "rpdohigr4eubd46h5opx1qg6",
+      "name": "Edgar León Archuleta",
+      "role": "Ingeniero en Sistemas Computacionales",
+      "bio": "Ingeniero en Sistemas Computacionales (egresado 2025) con experiencia desarrollando y evolucionando aplicaciones web y móviles full-stack. Participé en la modernización de sistemas financieros legacy con Vue.js, Laravel y PostgreSQL, y lancé APIs REST, apps Android en producción y soluciones empresariales escalables.\n\nTrabajo con comodidad en desarrollo móvil con Java, tecnologías web modernas y metodologías ágiles Scrum. Mi enfoque es siempre el mismo: productos eficientes, mantenibles y bien probados que muevan la aguja del negocio.",
+      "location": "Culiacán, Sinaloa",
+      "email": "leonedgar190@gmail.com",
+      "createdAt": "2026-09-17T18:24:34.205Z",
+      "updatedAt": "2026-10-12T19:02:43.574Z",
+      "publishedAt": "2026-10-12T19:02:43.610Z",
+      "locale": "es",
+      "photo": null,
+      "socialLinks": [
+        {
+          "id": 48,
+          "label": "GitHub",
+          "url": "https://github.com/EdgarLeonArchuleta19"
+        },
+        {
+          "id": 49,
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/edgar-leon-archuleta"
+        }
+      ],
+      "localizations": [
+        {
+          "id": 15,
+          "documentId": "rpdohigr4eubd46h5opx1qg6",
+          "name": "Edgar León Archuleta",
+          "role": "Computer Systems Engineer",
+          "bio": "Computer Systems Engineer (class of 2025) with experience building and evolving full-stack web and mobile applications. I helped modernize legacy financial systems using Vue.js, Laravel and PostgreSQL, and shipped REST APIs, production Android apps and scalable business solutions.\n\nI work comfortably with Java-based mobile development, modern front-end tooling and agile Scrum. My focus is always the same: efficient, maintainable, well-tested products that move the needle for the business.",
+          "location": "Culiacán, Sinaloa",
+          "email": "leonedgar190@gmail.com",
+          "createdAt": "2026-09-14T18:25:01.766Z",
+          "updatedAt": "2026-10-12T19:02:43.239Z",
+          "publishedAt": "2026-10-12T19:02:43.298Z",
+          "locale": "en"
+        }
+      ]
+    },
+    "projects": [
+      {
+        "id": 52,
+        "documentId": "g8getx0a4sggatns0ul7xo1j",
+        "title": "iCoffee",
+        "slug": "icoffee-pos",
+        "description": "iCoffee es un punto de venta todo-en-uno para cafeterías que quieren una sola herramienta para todo: ventas en mostrador, tienda en línea y pedidos de entrega.\n\nIncluye un catálogo completo de productos e inventario, seguimiento de pedidos, roles por usuario y un panel que le da al dueño una vista en vivo de ingresos y productos más vendidos. Está diseñado para sentirse rápido y simple detrás de un mostrador ocupado.\n\nStack: frontend con Vue.js + Laravel sobre PostgreSQL, consumido a través de una API REST limpia.",
+        "repositoryUrl": "https://github.com/EdgarLeonArchuleta19/iCoffee",
+        "order": null,
+        "published": true,
+        "createdAt": "2026-09-17T18:24:39.502Z",
+        "updatedAt": "2026-10-12T19:02:43.332Z",
+        "publishedAt": "2026-10-12T19:02:43.358Z",
+        "locale": "es",
+        "liveUrl": "https://edgarleonarchuleta19.github.io/iCoffee/",
+        "year": "2024",
+        "body": null,
+        "coverImage": {
+          "id": 6,
+          "documentId": "xd4p0jsijq9hekcfovfmg6vy",
+          "name": "logo icoffee.png",
+          "alternativeText": null,
+          "caption": null,
+          "focalPoint": null,
+          "width": 868,
+          "height": 480,
+          "formats": {
+            "thumbnail": {
+              "name": "thumbnail_logo icoffee.png",
+              "hash": "thumbnail_logo_icoffee_4069127e8a",
+              "ext": ".png",
+              "mime": "image/png",
+              "path": null,
+              "width": 245,
+              "height": 135,
+              "size": 14.41,
+              "sizeInBytes": 14405,
+              "url": "https://edgarleon-portafolio-media.s3.us-east-2.amazonaws.com/thumbnail_logo_icoffee_4069127e8a.png",
+              "etag": "b99b1e4fa3f91c464444781581776bfc"
+            },
+            "small": {
+              "name": "small_logo icoffee.png",
+              "hash": "small_logo_icoffee_4069127e8a",
+              "ext": ".png",
+              "mime": "image/png",
+              "path": null,
+              "width": 500,
+              "height": 276,
+              "size": 44.73,
+              "sizeInBytes": 44728,
+              "url": "https://edgarleon-portafolio-media.s3.us-east-2.amazonaws.com/small_logo_icoffee_4069127e8a.png",
+              "etag": "ac474c555e4c2618984d1080139fa24e"
+            },
+            "medium": {
+              "name": "medium_logo icoffee.png",
+              "hash": "medium_logo_icoffee_4069127e8a",
+              "ext": ".png",
+              "mime": "image/png",
+              "path": null,
+              "width": 750,
+              "height": 415,
+              "size": 89.48,
+              "sizeInBytes": 89480,
+              "url": "https://edgarleon-portafolio-media.s3.us-east-2.amazonaws.com/medium_logo_icoffee_4069127e8a.png",
+              "etag": "34e38ce25658d820ea301cfb88af7081"
+            }
+          },
+          "hash": "logo_icoffee_4069127e8a",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 26.89,
+          "url": "https://edgarleon-portafolio-media.s3.us-east-2.amazonaws.com/logo_icoffee_4069127e8a.png",
+          "previewUrl": null,
+          "provider": "aws-s3",
+          "provider_metadata": null,
+          "createdAt": "2026-10-12T18:47:02.731Z",
+          "updatedAt": "2026-10-12T18:47:02.731Z",
+          "publishedAt": "2026-10-12T18:47:02.732Z"
+        },
+        "screenshots": [],
+        "skills": [
+          {
+            "id": 141,
+            "documentId": "q7n1ga0tfgiwvagufgss4g29",
+            "name": "React",
+            "level": "avanzado",
+            "createdAt": "2026-09-17T18:24:35.437Z",
+            "updatedAt": "2026-09-17T18:26:23.724Z",
+            "publishedAt": "2026-09-17T18:26:23.729Z",
+            "locale": "es"
+          },
+          {
+            "id": 147,
+            "documentId": "nz4n9hik4tyw2zyyf7k2vepd",
+            "name": "Vue.js",
+            "level": "avanzado",
+            "createdAt": "2026-09-17T18:24:35.715Z",
+            "updatedAt": "2026-09-17T18:26:24.068Z",
+            "publishedAt": "2026-09-17T18:26:24.086Z",
+            "locale": "es"
+          },
+          {
+            "id": 153,
+            "documentId": "cxao4kwe0pv2edp8gyw5ana1",
+            "name": "Tailwind CSS",
+            "level": "aplicado",
+            "createdAt": "2026-09-17T18:24:36.004Z",
+            "updatedAt": "2026-09-17T18:26:24.422Z",
+            "publishedAt": "2026-09-17T18:26:24.426Z",
+            "locale": "es"
+          },
+          {
+            "id": 159,
+            "documentId": "m3h8vvd0636uqlabg2lcddlh",
+            "name": "Laravel",
+            "level": "avanzado",
+            "createdAt": "2026-09-17T18:24:36.286Z",
+            "updatedAt": "2026-09-17T18:26:24.754Z",
+            "publishedAt": "2026-09-17T18:26:24.758Z",
+            "locale": "es"
+          },
+          {
+            "id": 177,
+            "documentId": "ki36jmsoke8kghbm7zxt4zi7",
+            "name": "PostgreSQL",
+            "level": "avanzado",
+            "createdAt": "2026-09-17T18:24:37.084Z",
+            "updatedAt": "2026-09-17T18:26:25.839Z",
+            "publishedAt": "2026-09-17T18:26:25.842Z",
+            "locale": "es"
+          },
+          {
+            "id": 195,
+            "documentId": "gqxa6qvdhfenbvdfkk9n3uy8",
+            "name": "Git",
+            "level": "dominado",
+            "createdAt": "2026-09-17T18:24:37.917Z",
+            "updatedAt": "2026-09-17T18:26:26.876Z",
+            "publishedAt": "2026-09-17T18:26:26.880Z",
+            "locale": "es"
+          }
+        ],
+        "localizations": [
+          {
+            "id": 49,
+            "documentId": "g8getx0a4sggatns0ul7xo1j",
+            "title": "iCoffee",
+            "slug": "icoffee-pos",
+            "description": "iCoffee is an all-in-one point-of-sale system built for coffee shops that want one tool for everything: counter sales, an online storefront and delivery orders.\n\nIt ships with a full product and inventory catalog, order tracking, per-user roles and a dashboard that gives owners a live view of revenue and top products. Built to feel fast and stay simple on a busy counter.\n\nStack: Vue.js + Laravel frontend with a PostgreSQL database, consumed through a clean REST API.",
+            "repositoryUrl": "https://github.com/EdgarLeonArchuleta19/iCoffee",
+            "order": 1,
+            "published": true,
+            "createdAt": "2026-09-17T16:36:18.642Z",
+            "updatedAt": "2026-10-12T19:02:43.013Z",
+            "publishedAt": "2026-10-12T19:02:43.051Z",
+            "locale": "en",
+            "liveUrl": "https://edgarleonarchuleta19.github.io/iCoffee/",
+            "year": "2024",
+            "body": null
+          }
+        ]
+      },
+      {
+        "id": 53,
+        "documentId": "lrq6aeujkxtg7y7zhf4id4h1",
+        "title": "Tickets",
+        "slug": "support-tickets",
+        "description": "Una plataforma de soporte para gestionar tickets de TI de principio a fin: creación, clasificación y bandejas por rol tanto para agentes de soporte como para usuarios finales.\n\nCada ticket avanza por estados y prioridades con un historial completo, para que nada se pierda. Los reportes dan visibilidad del tiempo de resolución y la carga de trabajo, mientras el área administrativa mantiene controlados usuarios y categorías.\n\nStack: Vue.js + Laravel, MySQL como persistencia y Node.js para la capa de notificaciones en tiempo real.",
+        "repositoryUrl": "https://github.com/EdgarLeonArchuleta19/Telmex",
+        "order": null,
+        "published": true,
+        "createdAt": "2026-09-17T18:26:28.867Z",
+        "updatedAt": "2026-10-12T19:02:43.407Z",
+        "publishedAt": "2026-10-12T19:02:43.445Z",
+        "locale": "es",
+        "liveUrl": "",
+        "year": "2024",
+        "body": null,
+        "coverImage": {
+          "id": 5,
+          "documentId": "fspnmo9s7tbu7ppi6bwn9vhv",
+          "name": "tickets.png",
+          "alternativeText": null,
+          "caption": null,
+          "focalPoint": null,
+          "width": 693,
+          "height": 410,
+          "formats": {
+            "thumbnail": {
+              "name": "thumbnail_tickets.png",
+              "hash": "thumbnail_tickets_c13fd4a915",
+              "ext": ".png",
+              "mime": "image/png",
+              "path": null,
+              "width": 245,
+              "height": 145,
+              "size": 22.76,
+              "sizeInBytes": 22762,
+              "url": "https://edgarleon-portafolio-media.s3.us-east-2.amazonaws.com/thumbnail_tickets_c13fd4a915.png",
+              "etag": "54603c3f16f8a7a66a0e5c62d7ab4e60"
+            },
+            "small": {
+              "name": "small_tickets.png",
+              "hash": "small_tickets_c13fd4a915",
+              "ext": ".png",
+              "mime": "image/png",
+              "path": null,
+              "width": 500,
+              "height": 296,
+              "size": 71.62,
+              "sizeInBytes": 71619,
+              "url": "https://edgarleon-portafolio-media.s3.us-east-2.amazonaws.com/small_tickets_c13fd4a915.png",
+              "etag": "649ea53f2987c75d402dfbf4c3ec7467"
+            }
+          },
+          "hash": "tickets_c13fd4a915",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 39.19,
+          "url": "https://edgarleon-portafolio-media.s3.us-east-2.amazonaws.com/tickets_c13fd4a915.png",
+          "previewUrl": null,
+          "provider": "aws-s3",
+          "provider_metadata": null,
+          "createdAt": "2026-10-12T18:47:02.717Z",
+          "updatedAt": "2026-10-12T18:47:02.717Z",
+          "publishedAt": "2026-10-12T18:47:02.717Z"
+        },
+        "screenshots": [],
+        "skills": [
+          {
+            "id": 159,
+            "documentId": "m3h8vvd0636uqlabg2lcddlh",
+            "name": "Laravel",
+            "level": "avanzado",
+            "createdAt": "2026-09-17T18:24:36.286Z",
+            "updatedAt": "2026-09-17T18:26:24.754Z",
+            "publishedAt": "2026-09-17T18:26:24.758Z",
+            "locale": "es"
+          },
+          {
+            "id": 147,
+            "documentId": "nz4n9hik4tyw2zyyf7k2vepd",
+            "name": "Vue.js",
+            "level": "avanzado",
+            "createdAt": "2026-09-17T18:24:35.715Z",
+            "updatedAt": "2026-09-17T18:26:24.068Z",
+            "publishedAt": "2026-09-17T18:26:24.086Z",
+            "locale": "es"
+          },
+          {
+            "id": 183,
+            "documentId": "bw6938apg5lu6zwo3wb3bog9",
+            "name": "MySQL",
+            "level": "aplicado",
+            "createdAt": "2026-09-17T18:24:37.367Z",
+            "updatedAt": "2026-09-17T18:26:26.204Z",
+            "publishedAt": "2026-09-17T18:26:26.208Z",
+            "locale": "es"
+          },
+          {
+            "id": 165,
+            "documentId": "lzhfahubugq7ugvgjsjg17hq",
+            "name": "Node.js",
+            "level": "aplicado",
+            "createdAt": "2026-09-17T18:24:36.553Z",
+            "updatedAt": "2026-09-17T18:26:25.124Z",
+            "publishedAt": "2026-09-17T18:26:25.130Z",
+            "locale": "es"
+          },
+          {
+            "id": 201,
+            "documentId": "cjwneibdt3mcdu3ny3yyjzs4",
+            "name": "Scrum",
+            "level": "aplicado",
+            "createdAt": "2026-09-17T18:24:38.200Z",
+            "updatedAt": "2026-09-17T18:26:27.220Z",
+            "publishedAt": "2026-09-17T18:26:27.224Z",
+            "locale": "es"
+          },
+          {
+            "id": 195,
+            "documentId": "gqxa6qvdhfenbvdfkk9n3uy8",
+            "name": "Git",
+            "level": "dominado",
+            "createdAt": "2026-09-17T18:24:37.917Z",
+            "updatedAt": "2026-09-17T18:26:26.876Z",
+            "publishedAt": "2026-09-17T18:26:26.880Z",
+            "locale": "es"
+          }
+        ],
+        "localizations": [
+          {
+            "id": 50,
+            "documentId": "lrq6aeujkxtg7y7zhf4id4h1",
+            "title": "Support Tickets",
+            "slug": "support-tickets",
+            "description": "A support platform for managing IT tickets end to end: creation, triage, and role-based inboxes for both support agents and end users.\n\nEach ticket moves through statuses and priorities with a complete history, so nothing gets lost. Reports give the team visibility into resolution time and workload, while the admin area keeps users and categories under control.\n\nStack: Vue.js + Laravel backend, MySQL for persistence and Node.js for the real-time notification layer.",
+            "repositoryUrl": "https://github.com/EdgarLeonArchuleta19/Telmex",
+            "order": 2,
+            "published": true,
+            "createdAt": "2026-09-17T16:42:06.887Z",
+            "updatedAt": "2026-10-12T19:02:43.092Z",
+            "publishedAt": "2026-10-12T19:02:43.120Z",
+            "locale": "en",
+            "liveUrl": "",
+            "year": "2024",
+            "body": null
+          }
+        ]
+      },
+      {
+        "id": 54,
+        "documentId": "okwe636zyvq3aofg1kwmwpru",
+        "title": "Floa GPS",
+        "slug": "floa-gps",
+        "description": "Una plataforma de administración y seguimiento de flotas que te permite ver exactamente dónde están tus vehículos en tiempo real.\n\nCombina un mapa interactivo con geocercas y alertas de movimientos poco habituales, además de administración de flota, asignación de conductores y reportes avanzados para equipos de operaciones.\n\nStack: frontend React sobre una API de Node.js, PostgreSQL para datos geográficos y una app Android complementaria en Java.",
+        "repositoryUrl": "https://github.com/EdgarLeonArchuleta19/float-gps",
+        "order": null,
+        "published": true,
+        "createdAt": "2026-09-17T18:26:29.590Z",
+        "updatedAt": "2026-10-12T19:02:43.490Z",
+        "publishedAt": "2026-10-12T19:02:43.526Z",
+        "locale": "es",
+        "liveUrl": "https://edgarleonarchuleta19.github.io/floa-web/",
+        "year": "2026",
+        "body": null,
+        "coverImage": {
+          "id": 4,
+          "documentId": "c50yc6sohf2gwj06kfuvk84w",
+          "name": "floa.png",
+          "alternativeText": null,
+          "caption": null,
+          "focalPoint": null,
+          "width": 747,
+          "height": 420,
+          "formats": {
+            "thumbnail": {
+              "name": "thumbnail_floa.png",
+              "hash": "thumbnail_floa_e623cc7548",
+              "ext": ".png",
+              "mime": "image/png",
+              "path": null,
+              "width": 245,
+              "height": 138,
+              "size": 13.18,
+              "sizeInBytes": 13182,
+              "url": "https://edgarleon-portafolio-media.s3.us-east-2.amazonaws.com/thumbnail_floa_e623cc7548.png",
+              "etag": "7ecea0226bbe7828078306d063b22bf2"
+            },
+            "small": {
+              "name": "small_floa.png",
+              "hash": "small_floa_e623cc7548",
+              "ext": ".png",
+              "mime": "image/png",
+              "path": null,
+              "width": 500,
+              "height": 281,
+              "size": 35.48,
+              "sizeInBytes": 35482,
+              "url": "https://edgarleon-portafolio-media.s3.us-east-2.amazonaws.com/small_floa_e623cc7548.png",
+              "etag": "09e15a1220611ae48945a774101185da"
+            }
+          },
+          "hash": "floa_e623cc7548",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 13.12,
+          "url": "https://edgarleon-portafolio-media.s3.us-east-2.amazonaws.com/floa_e623cc7548.png",
+          "previewUrl": null,
+          "provider": "aws-s3",
+          "provider_metadata": null,
+          "createdAt": "2026-10-12T18:42:49.126Z",
+          "updatedAt": "2026-10-12T18:42:49.126Z",
+          "publishedAt": "2026-10-12T18:42:49.127Z"
+        },
+        "screenshots": [],
+        "skills": [
+          {
+            "id": 141,
+            "documentId": "q7n1ga0tfgiwvagufgss4g29",
+            "name": "React",
+            "level": "avanzado",
+            "createdAt": "2026-09-17T18:24:35.437Z",
+            "updatedAt": "2026-09-17T18:26:23.724Z",
+            "publishedAt": "2026-09-17T18:26:23.729Z",
+            "locale": "es"
+          },
+          {
+            "id": 165,
+            "documentId": "lzhfahubugq7ugvgjsjg17hq",
+            "name": "Node.js",
+            "level": "aplicado",
+            "createdAt": "2026-09-17T18:24:36.553Z",
+            "updatedAt": "2026-09-17T18:26:25.124Z",
+            "publishedAt": "2026-09-17T18:26:25.130Z",
+            "locale": "es"
+          },
+          {
+            "id": 177,
+            "documentId": "ki36jmsoke8kghbm7zxt4zi7",
+            "name": "PostgreSQL",
+            "level": "avanzado",
+            "createdAt": "2026-09-17T18:24:37.084Z",
+            "updatedAt": "2026-09-17T18:26:25.839Z",
+            "publishedAt": "2026-09-17T18:26:25.842Z",
+            "locale": "es"
+          },
+          {
+            "id": 189,
+            "documentId": "o94nw1c3nfed8kles30oisuv",
+            "name": "Android / Java",
+            "level": "avanzado",
+            "createdAt": "2026-09-17T18:24:37.632Z",
+            "updatedAt": "2026-09-17T18:26:26.545Z",
+            "publishedAt": "2026-09-17T18:26:26.552Z",
+            "locale": "es"
+          },
+          {
+            "id": 195,
+            "documentId": "gqxa6qvdhfenbvdfkk9n3uy8",
+            "name": "Git",
+            "level": "dominado",
+            "createdAt": "2026-09-17T18:24:37.917Z",
+            "updatedAt": "2026-09-17T18:26:26.876Z",
+            "publishedAt": "2026-09-17T18:26:26.880Z",
+            "locale": "es"
+          }
+        ],
+        "localizations": [
+          {
+            "id": 51,
+            "documentId": "okwe636zyvq3aofg1kwmwpru",
+            "title": "Floa GPS",
+            "slug": "floa-gps",
+            "description": "A fleet management and tracking platform that helps you see exactly where your vehicles are in real time.\n\nIt combines an interactive map with geofences and alerts for unusual movements, plus fleet administration, driver assignments and advanced reporting for operations teams.\n\nStack: React frontend over a Node.js API, PostgreSQL for geographic data and an Android companion app built in Java.",
+            "repositoryUrl": "https://github.com/EdgarLeonArchuleta19/float-gps",
+            "order": 3,
+            "published": true,
+            "createdAt": "2026-09-17T16:45:43.069Z",
+            "updatedAt": "2026-10-12T19:02:43.170Z",
+            "publishedAt": "2026-10-12T19:02:43.202Z",
+            "locale": "en",
+            "liveUrl": "https://edgarleonarchuleta19.github.io/floa-web/",
+            "year": "2026",
+            "body": null
+          }
+        ]
+      }
+    ],
+    "skills": [
+      {
+        "id": 141,
+        "documentId": "q7n1ga0tfgiwvagufgss4g29",
+        "name": "React",
+        "level": "avanzado",
+        "createdAt": "2026-09-17T18:24:35.437Z",
+        "updatedAt": "2026-09-17T18:26:23.724Z",
+        "publishedAt": "2026-09-17T18:26:23.729Z",
+        "locale": "es",
+        "category": {
+          "id": 44,
+          "documentId": "kv9nb9n26tgte2o7ubv79r69",
+          "name": "Frontend",
+          "order": 0,
+          "createdAt": "2026-09-17T18:24:34.640Z",
+          "updatedAt": "2026-09-17T18:26:22.554Z",
+          "publishedAt": "2026-09-17T18:26:22.558Z",
+          "locale": "es"
+        },
+        "projects": [
+          {
+            "id": 52,
+            "documentId": "g8getx0a4sggatns0ul7xo1j",
+            "title": "iCoffee",
+            "slug": "icoffee-pos",
+            "description": "iCoffee es un punto de venta todo-en-uno para cafeterías que quieren una sola herramienta para todo: ventas en mostrador, tienda en línea y pedidos de entrega.\n\nIncluye un catálogo completo de productos e inventario, seguimiento de pedidos, roles por usuario y un panel que le da al dueño una vista en vivo de ingresos y productos más vendidos. Está diseñado para sentirse rápido y simple detrás de un mostrador ocupado.\n\nStack: frontend con Vue.js + Laravel sobre PostgreSQL, consumido a través de una API REST limpia.",
+            "repositoryUrl": "https://github.com/EdgarLeonArchuleta19/iCoffee",
+            "order": null,
+            "published": true,
+            "createdAt": "2026-09-17T18:24:39.502Z",
+            "updatedAt": "2026-10-12T19:02:43.332Z",
+            "publishedAt": "2026-10-12T19:02:43.358Z",
+            "locale": "es",
+            "liveUrl": "https://edgarleonarchuleta19.github.io/iCoffee/",
+            "year": "2024",
+            "body": null
+          },
+          {
+            "id": 54,
+            "documentId": "okwe636zyvq3aofg1kwmwpru",
+            "title": "Floa GPS",
+            "slug": "floa-gps",
+            "description": "Una plataforma de administración y seguimiento de flotas que te permite ver exactamente dónde están tus vehículos en tiempo real.\n\nCombina un mapa interactivo con geocercas y alertas de movimientos poco habituales, además de administración de flota, asignación de conductores y reportes avanzados para equipos de operaciones.\n\nStack: frontend React sobre una API de Node.js, PostgreSQL para datos geográficos y una app Android complementaria en Java.",
+            "repositoryUrl": "https://github.com/EdgarLeonArchuleta19/float-gps",
+            "order": null,
+            "published": true,
+            "createdAt": "2026-09-17T18:26:29.590Z",
+            "updatedAt": "2026-10-12T19:02:43.490Z",
+            "publishedAt": "2026-10-12T19:02:43.526Z",
+            "locale": "es",
+            "liveUrl": "https://edgarleonarchuleta19.github.io/floa-web/",
+            "year": "2026",
+            "body": null
+          }
+        ],
+        "localizations": [
+          {
+            "id": 140,
+            "documentId": "q7n1ga0tfgiwvagufgss4g29",
+            "name": "React",
+            "level": "avanzado",
+            "createdAt": "2026-09-17T18:24:35.467Z",
+            "updatedAt": "2026-09-17T18:26:23.693Z",
+            "publishedAt": "2026-09-17T18:26:23.697Z",
+            "locale": "en"
+          }
+        ]
+      },
+      {
+        "id": 147,
+        "documentId": "nz4n9hik4tyw2zyyf7k2vepd",
+        "name": "Vue.js",
+        "level": "avanzado",
+        "createdAt": "2026-09-17T18:24:35.715Z",
+        "updatedAt": "2026-09-17T18:26:24.068Z",
+        "publishedAt": "2026-09-17T18:26:24.086Z",
+        "locale": "es",
+        "category": {
+          "id": 44,
+          "documentId": "kv9nb9n26tgte2o7ubv79r69",
+          "name": "Frontend",
+          "order": 0,
+          "createdAt": "2026-09-17T18:24:34.640Z",
+          "updatedAt": "2026-09-17T18:26:22.554Z",
+          "publishedAt": "2026-09-17T18:26:22.558Z",
+          "locale": "es"
+        },
+        "projects": [
+          {
+            "id": 52,
+            "documentId": "g8getx0a4sggatns0ul7xo1j",
+            "title": "iCoffee",
+            "slug": "icoffee-pos",
+            "description": "iCoffee es un punto de venta todo-en-uno para cafeterías que quieren una sola herramienta para todo: ventas en mostrador, tienda en línea y pedidos de entrega.\n\nIncluye un catálogo completo de productos e inventario, seguimiento de pedidos, roles por usuario y un panel que le da al dueño una vista en vivo de ingresos y productos más vendidos. Está diseñado para sentirse rápido y simple detrás de un mostrador ocupado.\n\nStack: frontend con Vue.js + Laravel sobre PostgreSQL, consumido a través de una API REST limpia.",
+            "repositoryUrl": "https://github.com/EdgarLeonArchuleta19/iCoffee",
+            "order": null,
+            "published": true,
+            "createdAt": "2026-09-17T18:24:39.502Z",
+            "updatedAt": "2026-10-12T19:02:43.332Z",
+            "publishedAt": "2026-10-12T19:02:43.358Z",
+            "locale": "es",
+            "liveUrl": "https://edgarleonarchuleta19.github.io/iCoffee/",
+            "year": "2024",
+            "body": null
+          },
+          {
+            "id": 53,
+            "documentId": "lrq6aeujkxtg7y7zhf4id4h1",
+            "title": "Tickets",
+            "slug": "support-tickets",
+            "description": "Una plataforma de soporte para gestionar tickets de TI de principio a fin: creación, clasificación y bandejas por rol tanto para agentes de soporte como para usuarios finales.\n\nCada ticket avanza por estados y prioridades con un historial completo, para que nada se pierda. Los reportes dan visibilidad del tiempo de resolución y la carga de trabajo, mientras el área administrativa mantiene controlados usuarios y categorías.\n\nStack: Vue.js + Laravel, MySQL como persistencia y Node.js para la capa de notificaciones en tiempo real.",
+            "repositoryUrl": "https://github.com/EdgarLeonArchuleta19/Telmex",
+            "order": null,
+            "published": true,
+            "createdAt": "2026-09-17T18:26:28.867Z",
+            "updatedAt": "2026-10-12T19:02:43.407Z",
+            "publishedAt": "2026-10-12T19:02:43.445Z",
+            "locale": "es",
+            "liveUrl": "",
+            "year": "2024",
+            "body": null
+          }
+        ],
+        "localizations": [
+          {
+            "id": 146,
+            "documentId": "nz4n9hik4tyw2zyyf7k2vepd",
+            "name": "Vue.js",
+            "level": "avanzado",
+            "createdAt": "2026-09-17T18:24:35.737Z",
+            "updatedAt": "2026-09-17T18:26:24.010Z",
+            "publishedAt": "2026-09-17T18:26:24.016Z",
+            "locale": "en"
+          }
+        ]
+      },
+      {
+        "id": 153,
+        "documentId": "cxao4kwe0pv2edp8gyw5ana1",
+        "name": "Tailwind CSS",
+        "level": "aplicado",
+        "createdAt": "2026-09-17T18:24:36.004Z",
+        "updatedAt": "2026-09-17T18:26:24.422Z",
+        "publishedAt": "2026-09-17T18:26:24.426Z",
+        "locale": "es",
+        "category": {
+          "id": 44,
+          "documentId": "kv9nb9n26tgte2o7ubv79r69",
+          "name": "Frontend",
+          "order": 0,
+          "createdAt": "2026-09-17T18:24:34.640Z",
+          "updatedAt": "2026-09-17T18:26:22.554Z",
+          "publishedAt": "2026-09-17T18:26:22.558Z",
+          "locale": "es"
+        },
+        "projects": [
+          {
+            "id": 52,
+            "documentId": "g8getx0a4sggatns0ul7xo1j",
+            "title": "iCoffee",
+            "slug": "icoffee-pos",
+            "description": "iCoffee es un punto de venta todo-en-uno para cafeterías que quieren una sola herramienta para todo: ventas en mostrador, tienda en línea y pedidos de entrega.\n\nIncluye un catálogo completo de productos e inventario, seguimiento de pedidos, roles por usuario y un panel que le da al dueño una vista en vivo de ingresos y productos más vendidos. Está diseñado para sentirse rápido y simple detrás de un mostrador ocupado.\n\nStack: frontend con Vue.js + Laravel sobre PostgreSQL, consumido a través de una API REST limpia.",
+            "repositoryUrl": "https://github.com/EdgarLeonArchuleta19/iCoffee",
+            "order": null,
+            "published": true,
+            "createdAt": "2026-09-17T18:24:39.502Z",
+            "updatedAt": "2026-10-12T19:02:43.332Z",
+            "publishedAt": "2026-10-12T19:02:43.358Z",
+            "locale": "es",
+            "liveUrl": "https://edgarleonarchuleta19.github.io/iCoffee/",
+            "year": "2024",
+            "body": null
+          }
+        ],
+        "localizations": [
+          {
+            "id": 152,
+            "documentId": "cxao4kwe0pv2edp8gyw5ana1",
+            "name": "Tailwind CSS",
+            "level": "aplicado",
+            "createdAt": "2026-09-17T18:24:36.022Z",
+            "updatedAt": "2026-09-17T18:26:24.388Z",
+            "publishedAt": "2026-09-17T18:26:24.392Z",
+            "locale": "en"
+          }
+        ]
+      },
+      {
+        "id": 159,
+        "documentId": "m3h8vvd0636uqlabg2lcddlh",
+        "name": "Laravel",
+        "level": "avanzado",
+        "createdAt": "2026-09-17T18:24:36.286Z",
+        "updatedAt": "2026-09-17T18:26:24.754Z",
+        "publishedAt": "2026-09-17T18:26:24.758Z",
+        "locale": "es",
+        "category": {
+          "id": 48,
+          "documentId": "gkc21olq8q81upnq57ipgvk0",
+          "name": "Backend",
+          "order": 0,
+          "createdAt": "2026-09-17T18:24:34.735Z",
+          "updatedAt": "2026-09-17T18:26:22.698Z",
+          "publishedAt": "2026-09-17T18:26:22.703Z",
+          "locale": "es"
+        },
+        "projects": [
+          {
+            "id": 52,
+            "documentId": "g8getx0a4sggatns0ul7xo1j",
+            "title": "iCoffee",
+            "slug": "icoffee-pos",
+            "description": "iCoffee es un punto de venta todo-en-uno para cafeterías que quieren una sola herramienta para todo: ventas en mostrador, tienda en línea y pedidos de entrega.\n\nIncluye un catálogo completo de productos e inventario, seguimiento de pedidos, roles por usuario y un panel que le da al dueño una vista en vivo de ingresos y productos más vendidos. Está diseñado para sentirse rápido y simple detrás de un mostrador ocupado.\n\nStack: frontend con Vue.js + Laravel sobre PostgreSQL, consumido a través de una API REST limpia.",
+            "repositoryUrl": "https://github.com/EdgarLeonArchuleta19/iCoffee",
+            "order": null,
+            "published": true,
+            "createdAt": "2026-09-17T18:24:39.502Z",
+            "updatedAt": "2026-10-12T19:02:43.332Z",
+            "publishedAt": "2026-10-12T19:02:43.358Z",
+            "locale": "es",
+            "liveUrl": "https://edgarleonarchuleta19.github.io/iCoffee/",
+            "year": "2024",
+            "body": null
+          },
+          {
+            "id": 53,
+            "documentId": "lrq6aeujkxtg7y7zhf4id4h1",
+            "title": "Tickets",
+            "slug": "support-tickets",
+            "description": "Una plataforma de soporte para gestionar tickets de TI de principio a fin: creación, clasificación y bandejas por rol tanto para agentes de soporte como para usuarios finales.\n\nCada ticket avanza por estados y prioridades con un historial completo, para que nada se pierda. Los reportes dan visibilidad del tiempo de resolución y la carga de trabajo, mientras el área administrativa mantiene controlados usuarios y categorías.\n\nStack: Vue.js + Laravel, MySQL como persistencia y Node.js para la capa de notificaciones en tiempo real.",
+            "repositoryUrl": "https://github.com/EdgarLeonArchuleta19/Telmex",
+            "order": null,
+            "published": true,
+            "createdAt": "2026-09-17T18:26:28.867Z",
+            "updatedAt": "2026-10-12T19:02:43.407Z",
+            "publishedAt": "2026-10-12T19:02:43.445Z",
+            "locale": "es",
+            "liveUrl": "",
+            "year": "2024",
+            "body": null
+          }
+        ],
+        "localizations": [
+          {
+            "id": 158,
+            "documentId": "m3h8vvd0636uqlabg2lcddlh",
+            "name": "Laravel",
+            "level": "avanzado",
+            "createdAt": "2026-09-17T18:24:36.317Z",
+            "updatedAt": "2026-09-17T18:26:24.721Z",
+            "publishedAt": "2026-09-17T18:26:24.725Z",
+            "locale": "en"
+          }
+        ]
+      },
+      {
+        "id": 165,
+        "documentId": "lzhfahubugq7ugvgjsjg17hq",
+        "name": "Node.js",
+        "level": "aplicado",
+        "createdAt": "2026-09-17T18:24:36.553Z",
+        "updatedAt": "2026-09-17T18:26:25.124Z",
+        "publishedAt": "2026-09-17T18:26:25.130Z",
+        "locale": "es",
+        "category": {
+          "id": 48,
+          "documentId": "gkc21olq8q81upnq57ipgvk0",
+          "name": "Backend",
+          "order": 0,
+          "createdAt": "2026-09-17T18:24:34.735Z",
+          "updatedAt": "2026-09-17T18:26:22.698Z",
+          "publishedAt": "2026-09-17T18:26:22.703Z",
+          "locale": "es"
+        },
+        "projects": [
+          {
+            "id": 53,
+            "documentId": "lrq6aeujkxtg7y7zhf4id4h1",
+            "title": "Tickets",
+            "slug": "support-tickets",
+            "description": "Una plataforma de soporte para gestionar tickets de TI de principio a fin: creación, clasificación y bandejas por rol tanto para agentes de soporte como para usuarios finales.\n\nCada ticket avanza por estados y prioridades con un historial completo, para que nada se pierda. Los reportes dan visibilidad del tiempo de resolución y la carga de trabajo, mientras el área administrativa mantiene controlados usuarios y categorías.\n\nStack: Vue.js + Laravel, MySQL como persistencia y Node.js para la capa de notificaciones en tiempo real.",
+            "repositoryUrl": "https://github.com/EdgarLeonArchuleta19/Telmex",
+            "order": null,
+            "published": true,
+            "createdAt": "2026-09-17T18:26:28.867Z",
+            "updatedAt": "2026-10-12T19:02:43.407Z",
+            "publishedAt": "2026-10-12T19:02:43.445Z",
+            "locale": "es",
+            "liveUrl": "",
+            "year": "2024",
+            "body": null
+          },
+          {
+            "id": 54,
+            "documentId": "okwe636zyvq3aofg1kwmwpru",
+            "title": "Floa GPS",
+            "slug": "floa-gps",
+            "description": "Una plataforma de administración y seguimiento de flotas que te permite ver exactamente dónde están tus vehículos en tiempo real.\n\nCombina un mapa interactivo con geocercas y alertas de movimientos poco habituales, además de administración de flota, asignación de conductores y reportes avanzados para equipos de operaciones.\n\nStack: frontend React sobre una API de Node.js, PostgreSQL para datos geográficos y una app Android complementaria en Java.",
+            "repositoryUrl": "https://github.com/EdgarLeonArchuleta19/float-gps",
+            "order": null,
+            "published": true,
+            "createdAt": "2026-09-17T18:26:29.590Z",
+            "updatedAt": "2026-10-12T19:02:43.490Z",
+            "publishedAt": "2026-10-12T19:02:43.526Z",
+            "locale": "es",
+            "liveUrl": "https://edgarleonarchuleta19.github.io/floa-web/",
+            "year": "2026",
+            "body": null
+          }
+        ],
+        "localizations": [
+          {
+            "id": 164,
+            "documentId": "lzhfahubugq7ugvgjsjg17hq",
+            "name": "Node.js",
+            "level": "aplicado",
+            "createdAt": "2026-09-17T18:24:36.584Z",
+            "updatedAt": "2026-09-17T18:26:25.088Z",
+            "publishedAt": "2026-09-17T18:26:25.092Z",
+            "locale": "en"
+          }
+        ]
+      },
+      {
+        "id": 171,
+        "documentId": "f7e9w9llmu1dyc9qc9dmgqov",
+        "name": "Strapi",
+        "level": "aplicado",
+        "createdAt": "2026-09-17T18:24:36.818Z",
+        "updatedAt": "2026-09-17T18:26:25.472Z",
+        "publishedAt": "2026-09-17T18:26:25.477Z",
+        "locale": "es",
+        "category": {
+          "id": 48,
+          "documentId": "gkc21olq8q81upnq57ipgvk0",
+          "name": "Backend",
+          "order": 0,
+          "createdAt": "2026-09-17T18:24:34.735Z",
+          "updatedAt": "2026-09-17T18:26:22.698Z",
+          "publishedAt": "2026-09-17T18:26:22.703Z",
+          "locale": "es"
+        },
+        "projects": [],
+        "localizations": [
+          {
+            "id": 170,
+            "documentId": "f7e9w9llmu1dyc9qc9dmgqov",
+            "name": "Strapi",
+            "level": "aplicado",
+            "createdAt": "2026-09-17T18:24:36.851Z",
+            "updatedAt": "2026-09-17T18:26:25.439Z",
+            "publishedAt": "2026-09-17T18:26:25.443Z",
+            "locale": "en"
+          }
+        ]
+      },
+      {
+        "id": 177,
+        "documentId": "ki36jmsoke8kghbm7zxt4zi7",
+        "name": "PostgreSQL",
+        "level": "avanzado",
+        "createdAt": "2026-09-17T18:24:37.084Z",
+        "updatedAt": "2026-09-17T18:26:25.839Z",
+        "publishedAt": "2026-09-17T18:26:25.842Z",
+        "locale": "es",
+        "category": {
+          "id": 52,
+          "documentId": "o78c82i0jzw1zujg2icen3ip",
+          "name": "Bases de datos",
+          "order": 0,
+          "createdAt": "2026-09-17T18:24:34.834Z",
+          "updatedAt": "2026-09-17T18:26:22.836Z",
+          "publishedAt": "2026-09-17T18:26:22.844Z",
+          "locale": "es"
+        },
+        "projects": [
+          {
+            "id": 52,
+            "documentId": "g8getx0a4sggatns0ul7xo1j",
+            "title": "iCoffee",
+            "slug": "icoffee-pos",
+            "description": "iCoffee es un punto de venta todo-en-uno para cafeterías que quieren una sola herramienta para todo: ventas en mostrador, tienda en línea y pedidos de entrega.\n\nIncluye un catálogo completo de productos e inventario, seguimiento de pedidos, roles por usuario y un panel que le da al dueño una vista en vivo de ingresos y productos más vendidos. Está diseñado para sentirse rápido y simple detrás de un mostrador ocupado.\n\nStack: frontend con Vue.js + Laravel sobre PostgreSQL, consumido a través de una API REST limpia.",
+            "repositoryUrl": "https://github.com/EdgarLeonArchuleta19/iCoffee",
+            "order": null,
+            "published": true,
+            "createdAt": "2026-09-17T18:24:39.502Z",
+            "updatedAt": "2026-10-12T19:02:43.332Z",
+            "publishedAt": "2026-10-12T19:02:43.358Z",
+            "locale": "es",
+            "liveUrl": "https://edgarleonarchuleta19.github.io/iCoffee/",
+            "year": "2024",
+            "body": null
+          },
+          {
+            "id": 54,
+            "documentId": "okwe636zyvq3aofg1kwmwpru",
+            "title": "Floa GPS",
+            "slug": "floa-gps",
+            "description": "Una plataforma de administración y seguimiento de flotas que te permite ver exactamente dónde están tus vehículos en tiempo real.\n\nCombina un mapa interactivo con geocercas y alertas de movimientos poco habituales, además de administración de flota, asignación de conductores y reportes avanzados para equipos de operaciones.\n\nStack: frontend React sobre una API de Node.js, PostgreSQL para datos geográficos y una app Android complementaria en Java.",
+            "repositoryUrl": "https://github.com/EdgarLeonArchuleta19/float-gps",
+            "order": null,
+            "published": true,
+            "createdAt": "2026-09-17T18:26:29.590Z",
+            "updatedAt": "2026-10-12T19:02:43.490Z",
+            "publishedAt": "2026-10-12T19:02:43.526Z",
+            "locale": "es",
+            "liveUrl": "https://edgarleonarchuleta19.github.io/floa-web/",
+            "year": "2026",
+            "body": null
+          }
+        ],
+        "localizations": [
+          {
+            "id": 176,
+            "documentId": "ki36jmsoke8kghbm7zxt4zi7",
+            "name": "PostgreSQL",
+            "level": "avanzado",
+            "createdAt": "2026-09-17T18:24:37.115Z",
+            "updatedAt": "2026-09-17T18:26:25.805Z",
+            "publishedAt": "2026-09-17T18:26:25.809Z",
+            "locale": "en"
+          }
+        ]
+      },
+      {
+        "id": 183,
+        "documentId": "bw6938apg5lu6zwo3wb3bog9",
+        "name": "MySQL",
+        "level": "aplicado",
+        "createdAt": "2026-09-17T18:24:37.367Z",
+        "updatedAt": "2026-09-17T18:26:26.204Z",
+        "publishedAt": "2026-09-17T18:26:26.208Z",
+        "locale": "es",
+        "category": {
+          "id": 52,
+          "documentId": "o78c82i0jzw1zujg2icen3ip",
+          "name": "Bases de datos",
+          "order": 0,
+          "createdAt": "2026-09-17T18:24:34.834Z",
+          "updatedAt": "2026-09-17T18:26:22.836Z",
+          "publishedAt": "2026-09-17T18:26:22.844Z",
+          "locale": "es"
+        },
+        "projects": [
+          {
+            "id": 53,
+            "documentId": "lrq6aeujkxtg7y7zhf4id4h1",
+            "title": "Tickets",
+            "slug": "support-tickets",
+            "description": "Una plataforma de soporte para gestionar tickets de TI de principio a fin: creación, clasificación y bandejas por rol tanto para agentes de soporte como para usuarios finales.\n\nCada ticket avanza por estados y prioridades con un historial completo, para que nada se pierda. Los reportes dan visibilidad del tiempo de resolución y la carga de trabajo, mientras el área administrativa mantiene controlados usuarios y categorías.\n\nStack: Vue.js + Laravel, MySQL como persistencia y Node.js para la capa de notificaciones en tiempo real.",
+            "repositoryUrl": "https://github.com/EdgarLeonArchuleta19/Telmex",
+            "order": null,
+            "published": true,
+            "createdAt": "2026-09-17T18:26:28.867Z",
+            "updatedAt": "2026-10-12T19:02:43.407Z",
+            "publishedAt": "2026-10-12T19:02:43.445Z",
+            "locale": "es",
+            "liveUrl": "",
+            "year": "2024",
+            "body": null
+          }
+        ],
+        "localizations": [
+          {
+            "id": 182,
+            "documentId": "bw6938apg5lu6zwo3wb3bog9",
+            "name": "MySQL",
+            "level": "aplicado",
+            "createdAt": "2026-09-17T18:24:37.385Z",
+            "updatedAt": "2026-09-17T18:26:26.172Z",
+            "publishedAt": "2026-09-17T18:26:26.176Z",
+            "locale": "en"
+          }
+        ]
+      },
+      {
+        "id": 189,
+        "documentId": "o94nw1c3nfed8kles30oisuv",
+        "name": "Android / Java",
+        "level": "avanzado",
+        "createdAt": "2026-09-17T18:24:37.632Z",
+        "updatedAt": "2026-09-17T18:26:26.545Z",
+        "publishedAt": "2026-09-17T18:26:26.552Z",
+        "locale": "es",
+        "category": {
+          "id": 60,
+          "documentId": "f6zuh147xcr2ta2bmcflyx5q",
+          "name": "Móvil",
+          "order": 0,
+          "createdAt": "2026-09-17T18:24:35.035Z",
+          "updatedAt": "2026-09-17T18:26:23.131Z",
+          "publishedAt": "2026-09-17T18:26:23.137Z",
+          "locale": "es"
+        },
+        "projects": [
+          {
+            "id": 54,
+            "documentId": "okwe636zyvq3aofg1kwmwpru",
+            "title": "Floa GPS",
+            "slug": "floa-gps",
+            "description": "Una plataforma de administración y seguimiento de flotas que te permite ver exactamente dónde están tus vehículos en tiempo real.\n\nCombina un mapa interactivo con geocercas y alertas de movimientos poco habituales, además de administración de flota, asignación de conductores y reportes avanzados para equipos de operaciones.\n\nStack: frontend React sobre una API de Node.js, PostgreSQL para datos geográficos y una app Android complementaria en Java.",
+            "repositoryUrl": "https://github.com/EdgarLeonArchuleta19/float-gps",
+            "order": null,
+            "published": true,
+            "createdAt": "2026-09-17T18:26:29.590Z",
+            "updatedAt": "2026-10-12T19:02:43.490Z",
+            "publishedAt": "2026-10-12T19:02:43.526Z",
+            "locale": "es",
+            "liveUrl": "https://edgarleonarchuleta19.github.io/floa-web/",
+            "year": "2026",
+            "body": null
+          }
+        ],
+        "localizations": [
+          {
+            "id": 188,
+            "documentId": "o94nw1c3nfed8kles30oisuv",
+            "name": "Android / Java",
+            "level": "avanzado",
+            "createdAt": "2026-09-17T18:24:37.653Z",
+            "updatedAt": "2026-09-17T18:26:26.506Z",
+            "publishedAt": "2026-09-17T18:26:26.511Z",
+            "locale": "en"
+          }
+        ]
+      },
+      {
+        "id": 195,
+        "documentId": "gqxa6qvdhfenbvdfkk9n3uy8",
+        "name": "Git",
+        "level": "dominado",
+        "createdAt": "2026-09-17T18:24:37.917Z",
+        "updatedAt": "2026-09-17T18:26:26.876Z",
+        "publishedAt": "2026-09-17T18:26:26.880Z",
+        "locale": "es",
+        "category": {
+          "id": 56,
+          "documentId": "pvz6z41x7m4eom9jb03i16de",
+          "name": "Herramientas",
+          "order": 0,
+          "createdAt": "2026-09-17T18:24:34.935Z",
+          "updatedAt": "2026-09-17T18:26:22.995Z",
+          "publishedAt": "2026-09-17T18:26:23.001Z",
+          "locale": "es"
+        },
+        "projects": [
+          {
+            "id": 52,
+            "documentId": "g8getx0a4sggatns0ul7xo1j",
+            "title": "iCoffee",
+            "slug": "icoffee-pos",
+            "description": "iCoffee es un punto de venta todo-en-uno para cafeterías que quieren una sola herramienta para todo: ventas en mostrador, tienda en línea y pedidos de entrega.\n\nIncluye un catálogo completo de productos e inventario, seguimiento de pedidos, roles por usuario y un panel que le da al dueño una vista en vivo de ingresos y productos más vendidos. Está diseñado para sentirse rápido y simple detrás de un mostrador ocupado.\n\nStack: frontend con Vue.js + Laravel sobre PostgreSQL, consumido a través de una API REST limpia.",
+            "repositoryUrl": "https://github.com/EdgarLeonArchuleta19/iCoffee",
+            "order": null,
+            "published": true,
+            "createdAt": "2026-09-17T18:24:39.502Z",
+            "updatedAt": "2026-10-12T19:02:43.332Z",
+            "publishedAt": "2026-10-12T19:02:43.358Z",
+            "locale": "es",
+            "liveUrl": "https://edgarleonarchuleta19.github.io/iCoffee/",
+            "year": "2024",
+            "body": null
+          },
+          {
+            "id": 53,
+            "documentId": "lrq6aeujkxtg7y7zhf4id4h1",
+            "title": "Tickets",
+            "slug": "support-tickets",
+            "description": "Una plataforma de soporte para gestionar tickets de TI de principio a fin: creación, clasificación y bandejas por rol tanto para agentes de soporte como para usuarios finales.\n\nCada ticket avanza por estados y prioridades con un historial completo, para que nada se pierda. Los reportes dan visibilidad del tiempo de resolución y la carga de trabajo, mientras el área administrativa mantiene controlados usuarios y categorías.\n\nStack: Vue.js + Laravel, MySQL como persistencia y Node.js para la capa de notificaciones en tiempo real.",
+            "repositoryUrl": "https://github.com/EdgarLeonArchuleta19/Telmex",
+            "order": null,
+            "published": true,
+            "createdAt": "2026-09-17T18:26:28.867Z",
+            "updatedAt": "2026-10-12T19:02:43.407Z",
+            "publishedAt": "2026-10-12T19:02:43.445Z",
+            "locale": "es",
+            "liveUrl": "",
+            "year": "2024",
+            "body": null
+          },
+          {
+            "id": 54,
+            "documentId": "okwe636zyvq3aofg1kwmwpru",
+            "title": "Floa GPS",
+            "slug": "floa-gps",
+            "description": "Una plataforma de administración y seguimiento de flotas que te permite ver exactamente dónde están tus vehículos en tiempo real.\n\nCombina un mapa interactivo con geocercas y alertas de movimientos poco habituales, además de administración de flota, asignación de conductores y reportes avanzados para equipos de operaciones.\n\nStack: frontend React sobre una API de Node.js, PostgreSQL para datos geográficos y una app Android complementaria en Java.",
+            "repositoryUrl": "https://github.com/EdgarLeonArchuleta19/float-gps",
+            "order": null,
+            "published": true,
+            "createdAt": "2026-09-17T18:26:29.590Z",
+            "updatedAt": "2026-10-12T19:02:43.490Z",
+            "publishedAt": "2026-10-12T19:02:43.526Z",
+            "locale": "es",
+            "liveUrl": "https://edgarleonarchuleta19.github.io/floa-web/",
+            "year": "2026",
+            "body": null
+          }
+        ],
+        "localizations": [
+          {
+            "id": 194,
+            "documentId": "gqxa6qvdhfenbvdfkk9n3uy8",
+            "name": "Git",
+            "level": "dominado",
+            "createdAt": "2026-09-17T18:24:37.949Z",
+            "updatedAt": "2026-09-17T18:26:26.840Z",
+            "publishedAt": "2026-09-17T18:26:26.844Z",
+            "locale": "en"
+          }
+        ]
+      },
+      {
+        "id": 201,
+        "documentId": "cjwneibdt3mcdu3ny3yyjzs4",
+        "name": "Scrum",
+        "level": "aplicado",
+        "createdAt": "2026-09-17T18:24:38.200Z",
+        "updatedAt": "2026-09-17T18:26:27.220Z",
+        "publishedAt": "2026-09-17T18:26:27.224Z",
+        "locale": "es",
+        "category": {
+          "id": 56,
+          "documentId": "pvz6z41x7m4eom9jb03i16de",
+          "name": "Herramientas",
+          "order": 0,
+          "createdAt": "2026-09-17T18:24:34.935Z",
+          "updatedAt": "2026-09-17T18:26:22.995Z",
+          "publishedAt": "2026-09-17T18:26:23.001Z",
+          "locale": "es"
+        },
+        "projects": [
+          {
+            "id": 53,
+            "documentId": "lrq6aeujkxtg7y7zhf4id4h1",
+            "title": "Tickets",
+            "slug": "support-tickets",
+            "description": "Una plataforma de soporte para gestionar tickets de TI de principio a fin: creación, clasificación y bandejas por rol tanto para agentes de soporte como para usuarios finales.\n\nCada ticket avanza por estados y prioridades con un historial completo, para que nada se pierda. Los reportes dan visibilidad del tiempo de resolución y la carga de trabajo, mientras el área administrativa mantiene controlados usuarios y categorías.\n\nStack: Vue.js + Laravel, MySQL como persistencia y Node.js para la capa de notificaciones en tiempo real.",
+            "repositoryUrl": "https://github.com/EdgarLeonArchuleta19/Telmex",
+            "order": null,
+            "published": true,
+            "createdAt": "2026-09-17T18:26:28.867Z",
+            "updatedAt": "2026-10-12T19:02:43.407Z",
+            "publishedAt": "2026-10-12T19:02:43.445Z",
+            "locale": "es",
+            "liveUrl": "",
+            "year": "2024",
+            "body": null
+          }
+        ],
+        "localizations": [
+          {
+            "id": 200,
+            "documentId": "cjwneibdt3mcdu3ny3yyjzs4",
+            "name": "Scrum",
+            "level": "aplicado",
+            "createdAt": "2026-09-17T18:24:38.234Z",
+            "updatedAt": "2026-09-17T18:26:27.190Z",
+            "publishedAt": "2026-09-17T18:26:27.195Z",
+            "locale": "en"
+          }
+        ]
+      }
+    ]
+  }
+}

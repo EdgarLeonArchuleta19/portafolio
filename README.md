@@ -71,6 +71,10 @@ The first time the backend starts, it loads all the portfolio content by itself.
 
 To store images on S3, fill in the `AWS_*` variables in `backend-edgarleon/.env`. Details are in the [backend README](backend-edgarleon/README.md#imágenes-en-amazon-s3-opcional).
 
+### Deployment
+
+The live site is **static** and runs on Vercel: no Strapi server is online. `npm run snapshot` saves the content from my local Strapi into `frontend-edgarleon/src/data/content.json`, images are served from S3, and every push redeploys the site. In development, setting `VITE_STRAPI_URL` makes the frontend read Strapi live instead.
+
 ### More details
 
 - [Backend README](backend-edgarleon/README.md): content model, endpoints, seed and S3.
@@ -144,6 +148,10 @@ npm run dev
 La primera vez que arranca, el backend carga todo el contenido del portafolio solo. Strapi te pide crear un usuario administrador la primera vez que abres `/admin`.
 
 Para guardar las imágenes en S3, llena las variables `AWS_*` en `backend-edgarleon/.env`. Los detalles están en el [README del backend](backend-edgarleon/README.md#imágenes-en-amazon-s3-opcional).
+
+### Despliegue
+
+El sitio en línea es **estático** y corre en Vercel: no hay ningún servidor de Strapi publicado. `npm run snapshot` guarda el contenido de mi Strapi local en `frontend-edgarleon/src/data/content.json`, las imágenes se sirven desde S3 y cada push vuelve a desplegar el sitio. En desarrollo, con `VITE_STRAPI_URL` el frontend lee Strapi en vivo.
 
 ### Más detalles
 

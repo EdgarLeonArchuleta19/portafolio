@@ -1,18 +1,13 @@
 import { STRAPI_URL, STRAPI_TOKEN } from '../config/env'
+import { FALLBACK_LOCALE, RESOURCE_PARAMS, buildStrapiUrl } from './resources'
 
-const FALLBACK_LOCALE = 'en'
 const NOT_TRANSLATED_STATUS = 404
 
-function buildUrl(resource, params, locale) {
-  const query = new URLSearchParams({ populate: '*', ...params, locale })
-  return `${STRAPI_URL}/api/${resource}?${query}`
-}
-
-async function fetchData(resource, params, locale) {
+async function fetchFromStrapi(resource, params, locale) {
   const headers = { accept: 'application/json' }
   if (STRAPI_TOKEN) headers.authorization = `Bearer ${STRAPI_TOKEN}`
 
-  const response = await fetch(buildUrl(resource, params, locale), { headers })
+  const response = await fetch(buildStrapiUrl(STRAPI_URL, resource, params, locale), { headers })
 
   if (response.status === NOT_TRANSLATED_STATUS) return null
   if (!response.ok) throw new Error(`Strapi respondió con estado ${response.status}`)
@@ -21,25 +16,37 @@ async function fetchData(resource, params, locale) {
   return payload.data
 }
 
+const loadSnapshot = () => import('../data/content.json').then((module) => module.default)
+
+async function readFromSnapshot(resource, locale) {
+  const snapshot = await loadSnapshot()
+  return snapshot[locale]?.[resource] ?? null
+}
+
+function readContent(resource, locale, extraParams = {}) {
+  if (!STRAPI_URL) return readFromSnapshot(resource, locale)
+  return fetchFromStrapi(resource, { ...RESOURCE_PARAMS[resource], ...extraParams }, locale)
+}
+
 const isEmpty = (data) => data == null || (Array.isArray(data) && data.length === 0)
 
-async function fetchWithFallbackLocale(resource, params, locale) {
-  const data = await fetchData(resource, params, locale)
+async function withFallbackLocale(locale, read) {
+  const data = await read(locale)
   if (locale === FALLBACK_LOCALE || !isEmpty(data)) return data
-  return fetchData(resource, params, FALLBACK_LOCALE)
+  return read(FALLBACK_LOCALE)
 }
 
-export const getProfile = (locale) => fetchWithFallbackLocale('profile', {}, locale)
+export const getProfile = (locale) => withFallbackLocale(locale, (current) => readContent('profile', current))
 
-export const getProjects = (locale) =>
-  fetchWithFallbackLocale('projects', { 'sort[0]': 'order:asc' }, locale)
+export const getProjects = (locale) => withFallbackLocale(locale, (current) => readContent('projects', current))
 
-export async function getProjectBySlug(locale, slug) {
-  const projects = await fetchWithFallbackLocale('projects', { 'filters[slug][$eq]': slug }, locale)
-  return projects?.[0] ?? null
-}
+export const getProjectBySlug = (locale, slug) =>
+  withFallbackLocale(locale, async (current) => {
+    const projects = await readContent('projects', current, { 'filters[slug][$eq]': slug })
+    return projects?.find((project) => project.slug === slug) ?? null
+  })
 
-export const getSkills = (locale) => fetchWithFallbackLocale('skills', {}, locale)
+export const getSkills = (locale) => withFallbackLocale(locale, (current) => readContent('skills', current))
 
 export function mediaUrl(media) {
   const url = media?.url
