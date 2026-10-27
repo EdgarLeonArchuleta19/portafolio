@@ -1,0 +1,23 @@
+{
+  "name": "portafolio-edgar",
+  "version": "1.0.0",
+  "description": "Portafolio personal editorial e interactivo de Edgar León Archuleta sincronizado en tiempo real con la API de GitHub.",
+  "main": "app.js",
+  "scripts": {
+    "dev": "npx http-server -p 3000 -c-1",
+    "start": "npx http-server -p 3000 -c-1"
+  },
+  "keywords": [
+    "portfolio",
+    "full-stack",
+    "github-api",
+    "chess",
+    "editorial-design"
+  ],
+  "author": "Edgar León Archuleta <leonedgar190@gmail.com>",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "@phosphor-icons/web": "^2.1.2"
+  }
+}

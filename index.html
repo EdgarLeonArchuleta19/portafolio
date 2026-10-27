@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Edgar León Archuleta — Desarrollador Full-Stack</title>
+  <meta name="description" content="Portafolio de Edgar León Archuleta, desarrollador full-stack en Culiacán, Sinaloa. Proyectos sincronizados en vivo desde GitHub." />
+  <meta name="theme-color" content="#1534FF" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' fill='%231534FF'/><path d='M18 3 7 18h7l-2 11 11-15h-7z' fill='%23FFD60A'/></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..900;1,9..144,400..900&family=Schibsted+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=Noto+Sans+Symbols+2&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="vendor/phosphor/regular/style.css" />
+  <link rel="stylesheet" href="vendor/phosphor/fill/style.css" />
+  <link rel="stylesheet" href="styles.css?v=2" />
+  <script>
+    (function () {
+      const saved = localStorage.getItem('theme');
+      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      document.documentElement.dataset.theme = saved || (prefersDark ? 'dark' : 'light');
+    })();
+  </script>
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+
+  <!-- ================= TOP BAR ================= -->
+  <header class="topbar" id="topbar">
+    <a href="#inicio" class="wordmark" aria-label="Inicio">
+      <span class="wm-box"><i class="ph-fill ph-lightning"></i></span>
+      <span class="wm-text">E. León<em>/dev</em></span>
+    </a>
+    <nav class="nav-links" id="navLinks" aria-label="Principal">
+      <a href="#perfil"><span>01</span>Perfil</a>
+      <a href="#trabajo"><span>02</span>Trabajo</a>
+      <a href="#registro"><span>03</span>Registro</a>
+      <a href="#relax-zone"><span>04</span>Relax Zone</a>
+      <a href="#contacto"><span>05</span>Contacto</a>
+    </nav>
+    <div class="topbar-actions">
+      <button class="sq-btn" id="themeToggle" aria-label="Cambiar tema" title="Cambiar tema">
+        <i class="ph ph-moon icon-moon"></i><i class="ph ph-sun icon-sun"></i>
+      </button>
+      <button class="sq-btn menu-btn" id="menuBtn" aria-label="Abrir menú" aria-expanded="false">
+        <i class="ph ph-list icon-open"></i><i class="ph ph-x icon-close"></i>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ================= HERO ================= -->
+    <section class="hero" id="inicio">
+      <div class="hero-meta reveal">
+        <span>Portafolio — Ed. <span id="yearTop"></span></span>
+        <span class="hide-sm">24.8091° N, 107.3940° O</span>
+        <span class="status"><i class="sq-dot"></i>Disponible para proyectos</span>
+      </div>
+
+      <h1 class="hero-title reveal">
+        <span class="line">Edgar</span>
+        <span class="line indent"><em>León</em></span>
+        <span class="line">Archuleta<span class="title-dot">.</span></span>
+      </h1>
+
+      <figure class="hero-photo reveal">
+        <div class="photo-frame">
+          <img id="avatar" src="https://avatars.githubusercontent.com/u/47997877?v=4" alt="Fotografía de Edgar León Archuleta" width="420" height="420" />
+        </div>
+        <span class="sticker" aria-hidden="true"><i class="ph-fill ph-lightning"></i> Full-Stack</span>
+        <figcaption><span>Fig. 01</span> El autor, calculando su siguiente jugada.</figcaption>
+      </figure>
+
+      <div class="hero-copy reveal">
+        <p class="lead">
+          Desarrollador full-stack en <strong id="heroLocation">Culiacán, Sinaloa</strong>.
+          Diseño y construyo plataformas web para empresas: sistemas de gestión,
+          monitoreo de flotas y sitios comerciales.
+        </p>
+        <p class="rotator-line">
+          <span class="mono-label">Especialidad →</span>
+          <span class="rotator" id="rotator"><span>Plataformas de gestión</span></span>
+        </p>
+        <div class="cta-row">
+          <a href="#trabajo" class="btn btn-solid">Ver trabajo <i class="ph ph-arrow-down-right"></i></a>
+          <button class="btn btn-line" data-open-chat><i class="ph ph-chat-teardrop-text"></i> Consultar a EdgarBot</button>
+        </div>
+      </div>
+
+      <dl class="hero-strip reveal">
+        <div><dt>Repositorios</dt><dd id="statRepos">—</dd></div>
+        <div><dt>Lenguajes</dt><dd id="statLangs">—</dd></div>
+        <div><dt>En GitHub desde</dt><dd id="statSince">—</dd></div>
+        <div><dt>Base</dt><dd class="dd-text">Culiacán, MX</dd></div>
+      </dl>
+    </section>
+
+    <!-- ================= PERFIL ================= -->
+    <section class="section perfil" id="perfil">
+      <span class="bg-number" aria-hidden="true">01</span>
+      <header class="section-label reveal">
+        <span class="mono-label">01 / Perfil</span>
+      </header>
+
+      <div class="perfil-statement reveal">
+        <p>
+          Construyo software de principio a fin — base de datos, API e interfaz —
+          con una idea fija: <mark>que el producto resuelva un problema real del negocio</mark>
+          y que el código siga siendo legible dentro de un año.
+        </p>
+      </div>
+
+      <div class="perfil-grid">
+        <article class="block principles reveal">
+          <h3 class="block-title">Enfoque</h3>
+          <ol>
+            <li><span>i.</span><div><strong>Producto completo.</strong> Del modelo de datos al último estado de la interfaz.</div></li>
+            <li><span>ii.</span><div><strong>Código mantenible.</strong> Tipado, estructura clara y decisiones documentadas.</div></li>
+            <li><span>iii.</span><div><strong>Entrega constante.</strong> Iteraciones cortas, resultados visibles.</div></li>
+          </ol>
+        </article>
+
+        <article class="block langs reveal">
+          <h3 class="block-title">Lenguajes <small>en vivo · GitHub</small></h3>
+          <div class="lang-bars" id="langBars">
+            <div class="skeleton-line"></div><div class="skeleton-line"></div><div class="skeleton-line"></div>
+          </div>
+        </article>
+
+        <article class="block stack reveal">
+          <h3 class="block-title">Stack</h3>
+          <ul class="tags">
+            <li>TypeScript</li><li>JavaScript</li><li>React</li><li>Vue</li><li>Vite</li>
+            <li>Tailwind CSS</li><li>Node.js</li><li>Express</li><li>Strapi</li><li>PostgreSQL</li>
+            <li>SQLite</li><li>AWS S3</li><li>Java</li><li>Git</li>
+          </ul>
+        </article>
+
+        <article class="block offline reveal">
+          <h3 class="block-title">Fuera del código</h3>
+          <div class="offline-item">
+            <i class="ph ph-horse"></i>
+            <div><strong>Ajedrez.</strong> Aperturas agresivas, finales estudiados. Hay un reto esperándote en la <a href="#relax-zone">Relax Zone</a>.</div>
+          </div>
+          <div class="offline-item">
+            <i class="ph ph-lightning"></i>
+            <div><strong>The Flash.</strong> Fan declarado de Barry Allen. Por eso este sitio carga rápido.</div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ================= TRABAJO ================= -->
+    <section class="section trabajo" id="trabajo">
+      <span class="bg-number" aria-hidden="true">02</span>
+      <header class="work-head">
+        <div class="reveal">
+          <span class="mono-label">02 / Trabajo</span>
+          <h2 class="section-title">Proyectos<br /><em>seleccionados</em></h2>
+        </div>
+        <p class="work-note reveal">
+          Sincronizado en tiempo real con
+          <a href="https://github.com/EdgarLeonArchuleta19" target="_blank" rel="noopener">github.com/EdgarLeonArchuleta19</a>.
+          Selecciona un proyecto para ver su detalle y README.
+        </p>
+      </header>
+
+      <div class="toolbar reveal">
+        <label class="search">
+          <i class="ph ph-magnifying-glass"></i>
+          <input type="search" id="searchInput" placeholder="Buscar por nombre, tema o tecnología" aria-label="Buscar proyecto" />
+        </label>
+        <div class="filters" id="filters" role="tablist" aria-label="Filtrar por lenguaje"></div>
+        <label class="sort">
+          <span class="mono-label">Orden</span>
+          <select id="sortSelect" aria-label="Ordenar proyectos">
+            <option value="updated">Recientes</option>
+            <option value="stars">Estrellas</option>
+            <option value="name">A — Z</option>
+            <option value="created">Antiguos</option>
+          </select>
+        </label>
+      </div>
+
+      <div class="projects-grid" id="projectsGrid">
+        <div class="project-card skeleton"></div>
+        <div class="project-card skeleton"></div>
+        <div class="project-card skeleton"></div>
+      </div>
+      <p class="empty" id="emptyState" hidden>Sin resultados para esa búsqueda.</p>
+    </section>
+
+    <!-- ================= REGISTRO ================= -->
+    <section class="section registro" id="registro">
+      <span class="bg-number" aria-hidden="true">03</span>
+      <div class="registro-layout">
+        <header class="reveal">
+          <span class="mono-label">03 / Registro</span>
+          <h2 class="section-title">Actividad<br /><em>reciente</em></h2>
+          <p class="muted">Los últimos movimientos públicos en GitHub, en orden cronológico inverso.</p>
+        </header>
+        <ol class="ledger reveal" id="timeline">
+          <li class="skeleton-line"></li><li class="skeleton-line"></li><li class="skeleton-line"></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ================= RELAX ZONE ================= -->
+    <section class="section bro" id="relax-zone">
+      <span class="bg-number" aria-hidden="true">04</span>
+      <header class="bro-head reveal">
+        <span class="mono-label">04 / Relax Zone</span>
+        <h2 class="section-title">La sección <em>no tan seria</em>.</h2>
+        <p class="muted">Porque un portafolio sin sentido del humor es como un deploy en viernes: da miedo.</p>
+      </header>
+
+      <div class="bro-grid">
+        <!-- Ajedrez -->
+        <article class="block chess reveal" id="chessCard">
+          <div class="chess-board-wrap">
+            <div class="board" id="board" role="grid" aria-label="Tablero de ajedrez"></div>
+          </div>
+          <div class="chess-side">
+            <div class="chess-top">
+              <span class="mono-label" id="puzzleLabel">Problema 1 / 3</span>
+              <span class="elo">Tu Elo <strong id="elo">1200</strong></span>
+            </div>
+            <h3 class="chess-title" id="puzzleTitle">El pasillo</h3>
+            <p class="chess-prompt"><span class="turn-dot"></span> Juegan blancas. <strong>Mate en 1.</strong></p>
+            <div class="commentary" id="commentary" aria-live="polite">
+              <span class="annot">…</span>
+              <p>Selecciona una pieza blanca y luego la casilla destino. Sin presión. Bueno, un poco.</p>
+            </div>
+            <div class="chess-actions">
+              <button class="btn btn-line btn-sm" id="hintBtn"><i class="ph ph-lightbulb"></i> Pista</button>
+              <button class="btn btn-line btn-sm" id="resignBtn"><i class="ph ph-flag"></i> Rendirse</button>
+              <button class="btn btn-solid btn-sm" id="nextBtn">Siguiente <i class="ph ph-arrow-right"></i></button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Excusas -->
+        <article class="block excuses reveal">
+          <h3 class="block-title"><i class="ph ph-shuffle"></i> Generador de excusas de dev</h3>
+          <p class="excuse" id="excuseText">"En mi máquina sí funciona."</p>
+          <button class="btn btn-ink btn-sm" id="excuseBtn">Otra excusa <i class="ph ph-arrow-clockwise"></i></button>
+        </article>
+
+        <!-- Aperturas -->
+        <article class="block openings reveal">
+          <h3 class="block-title"><i class="ph ph-strategy"></i> Aperturas para developers</h3>
+          <div class="opening" id="opening">
+            <span class="eco" id="openingEco">C42</span>
+            <p class="opening-name" id="openingName">Gambito del Deploy en Viernes</p>
+            <p class="opening-eval"><span class="mono-label">Evaluación</span> <strong id="openingEval">−9.9</strong></p>
+            <p class="opening-note" id="openingNote">Teóricamente refutada desde 2009. La gente la sigue jugando.</p>
+          </div>
+          <button class="btn btn-line btn-sm" id="openingBtn">Otra apertura <i class="ph ph-arrow-clockwise"></i></button>
+        </article>
+
+        <!-- Terminal -->
+        <article class="block terminal-card reveal">
+          <div class="term-head"><span><i class="ph ph-terminal"></i> edgar@dev — zsh</span><span class="mono-label">escribe help</span></div>
+          <div class="terminal" id="terminal">
+            <div class="term-output" id="termOutput"><p>Bienvenido. Escribe <span class="hl">help</span> para ver los comandos.</p></div>
+            <form class="term-input" id="termForm">
+              <span class="prompt">edgar@dev:~$</span>
+              <input id="termInput" autocomplete="off" spellcheck="false" aria-label="Comando de terminal" />
+            </form>
+          </div>
+        </article>
+      </div>
+      <p class="konami-hint reveal"><i class="ph ph-lightning"></i> ↑ ↑ ↓ ↓ ← → ← → B A — para acceder a la Speed Force.</p>
+    </section>
+
+    <!-- ================= CONTACTO ================= -->
+    <section class="contact" id="contacto">
+      <div class="contact-inner">
+        <span class="mono-label">05 / Contacto</span>
+        <h2 class="contact-title reveal">Hablemos<span>.</span></h2>
+        <p class="contact-lead reveal">¿Tienes un proyecto, un sistema que necesita orden o una idea por construir? Conversemos.</p>
+        <ul class="contact-links reveal">
+          <li>
+            <a href="mailto:leonedgar190@gmail.com">
+              <span class="cl-label">Correo</span><span class="cl-value">leonedgar190@gmail.com</span><i class="ph ph-arrow-up-right"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/edgar-le%C3%B3n-archuleta-51b57128a/" target="_blank" rel="noopener">
+              <span class="cl-label">LinkedIn</span><span class="cl-value">/in/edgar-león-archuleta</span><i class="ph ph-arrow-up-right"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/EdgarLeonArchuleta19" target="_blank" rel="noopener">
+              <span class="cl-label">GitHub</span><span class="cl-value">@EdgarLeonArchuleta19</span><i class="ph ph-arrow-up-right"></i>
+            </a>
+          </li>
+          <li>
+            <button data-open-chat>
+              <span class="cl-label">Asistente</span><span class="cl-value">Preguntar a EdgarBot</span><i class="ph ph-arrow-up-right"></i>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>© <span id="year"></span> Edgar León Archuleta — Culiacán, Sinaloa</span>
+    <span id="speedReadout"><i class="ph ph-lightning"></i> Midiendo velocidad…</span>
+  </footer>
+
+  <!-- ================= MODAL ================= -->
+  <div class="modal" id="projectModal" hidden>
+    <div class="modal-backdrop" data-close></div>
+    <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="sq-btn modal-close" data-close aria-label="Cerrar"><i class="ph ph-x"></i></button>
+      <div id="modalContent"></div>
+    </div>
+  </div>
+
+  <!-- ================= CHAT ================= -->
+  <button class="chat-fab" id="chatFab" aria-label="Abrir chat con EdgarBot">
+    <span class="fab-icon"><i class="ph-fill ph-robot"></i></span>
+    <span class="fab-text">
+      <strong>EdgarBot</strong>
+      <small><i class="sq-dot"></i> En línea</small>
+    </span>
+    <span class="fab-badge" id="fabBadge">1</span>
+  </button>
+
+  <aside class="chat" id="chat" aria-label="Chat con EdgarBot" hidden>
+    <header class="chat-head">
+      <div class="bot-avatar"><i class="ph ph-robot"></i></div>
+      <div class="chat-id">
+        <strong>EdgarBot</strong>
+        <span><i class="sq-dot"></i> En línea · IA 100% artesanal</span>
+      </div>
+      <button class="sq-btn" id="chatClose" aria-label="Cerrar chat"><i class="ph ph-x"></i></button>
+    </header>
+    <div class="chat-body" id="chatBody"></div>
+    <div class="chat-suggestions" id="chatSuggestions"></div>
+    <form class="chat-form" id="chatForm">
+      <input id="chatInput" placeholder="Escribe tu pregunta…" autocomplete="off" aria-label="Mensaje" />
+      <button class="sq-btn send" aria-label="Enviar"><i class="ph ph-paper-plane-right"></i></button>
+    </form>
+  </aside>
+
+  <canvas id="confetti" aria-hidden="true"></canvas>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js" defer></script>
+  <script src="app.js?v=2" defer></script>
+</body>
+</html>
