@@ -1,4 +1,4 @@
-﻿/* =========================================================
+/* =========================================================
    Portafolio · Edgar León Archuleta
    Datos en vivo desde la API pública de GitHub + Fallback
    ========================================================= */
@@ -65,14 +65,6 @@ const REPO_CURATED = {
   'ejercicios-java': {
     description: 'Colección de proyectos universitarios, algoritmos, estructuras de datos, interfaces Swing y desarrollo web.',
     topics: ['java', 'algorithms', 'data-structures', 'oop', 'web-development'],
-  },
-  'Ejercicios-JAVA': {
-    description: 'Colección de proyectos, estructuras de datos y prácticas de programación orientada a objetos en Java.',
-    topics: ['java', 'oop', 'algorithms'],
-  },
-  'ejercicios-java2': {
-    description: 'Prácticas complementarias de desarrollo de interfaces y lógica de programación en Java y web.',
-    topics: ['java', 'html', 'practicas'],
   },
   AJEDREZ: {
     description: 'Tablero e interfaz de ajedrez para navegador construido con tecnologías web.',
@@ -236,20 +228,6 @@ const FALLBACK_REPOS = [
     default_branch: 'master',
   },
   {
-    name: 'ejercicios-java2',
-    description: 'Prácticas complementarias de desarrollo de interfaces y lógica en Java y web.',
-    language: 'HTML',
-    stargazers_count: 0,
-    forks_count: 0,
-    pushed_at: '2024-05-08T22:58:27Z',
-    created_at: '2024-02-12T17:37:39Z',
-    homepage: '',
-    html_url: 'https://github.com/EdgarLeonArchuleta19/ejercicios-java2',
-    topics: ['java', 'html'],
-    fork: false,
-    default_branch: 'main',
-  },
-  {
     name: 'EdgarLeonArchuleta19.github.io',
     description: 'Primera página personal en GitHub Pages dedicada al ajedrez y The Flash.',
     language: 'HTML',
@@ -318,7 +296,8 @@ function enrichRepo(r) {
 }
 
 async function fetchJSON(path, { cacheKey = path, accept } = {}) {
-  const key = `gh:${cacheKey}`;
+  const CACHE_VERSION = 'v2';
+  const key = `gh:${CACHE_VERSION}:${cacheKey}`;
   try {
     const cached = JSON.parse(localStorage.getItem(key) || 'null');
     if (cached && Date.now() - cached.t < CACHE_TTL) return cached.d;
