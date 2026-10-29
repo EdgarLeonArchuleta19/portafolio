@@ -1,4 +1,4 @@
-/* =========================================================
+﻿/* =========================================================
    Portafolio · Edgar León Archuleta
    Datos en vivo desde la API pública de GitHub + Fallback
    ========================================================= */
@@ -61,6 +61,10 @@ const REPO_CURATED = {
   'float-gps': {
     description: 'Sistema de monitoreo y rastreo GPS en tiempo real para flotas vehiculares.',
     topics: ['typescript', 'react', 'nodejs', 'gps-tracking'],
+  },
+  'ejercicios-java': {
+    description: 'Colección de proyectos universitarios, algoritmos, estructuras de datos, interfaces Swing y desarrollo web.',
+    topics: ['java', 'algorithms', 'data-structures', 'oop', 'web-development'],
   },
   'Ejercicios-JAVA': {
     description: 'Colección de proyectos, estructuras de datos y prácticas de programación orientada a objetos en Java.',
@@ -204,7 +208,7 @@ const FALLBACK_REPOS = [
     default_branch: 'main',
   },
   {
-    name: 'Ejercicios-JAVA',
+    name: 'ejercicios-java',
     description: 'Mis proyectos de Java y programación orientada a objetos',
     language: 'Java',
     stargazers_count: 0,
@@ -212,7 +216,7 @@ const FALLBACK_REPOS = [
     pushed_at: '2026-10-12T19:00:38Z',
     created_at: '2023-06-04T01:45:40Z',
     homepage: '',
-    html_url: 'https://github.com/EdgarLeonArchuleta19/Ejercicios-JAVA',
+    html_url: 'https://github.com/EdgarLeonArchuleta19/ejercicios-java',
     topics: ['java', 'oop'],
     fork: false,
     default_branch: 'main',
